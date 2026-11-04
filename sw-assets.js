@@ -1,6 +1,6 @@
 /* Generated from the exact public app files. Rebuild after every update. */
 self.PHOTO_PWA_ASSETS = {
-  "version": "adc40e845b336fc83263",
+  "version": "9344ae9a2945d790e4d0",
   "files": [
     "README.md",
     "app.js?v=c37f4029c9",
