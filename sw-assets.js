@@ -1,6 +1,6 @@
 /* Generated from the exact public app files. Rebuild after every update. */
 self.PHOTO_PWA_ASSETS = {
-  "version": "9344ae9a2945d790e4d0",
+  "version": "ddb7082679bd5dc4dda2",
   "files": [
     "README.md",
     "app.js?v=c37f4029c9",
@@ -374,6 +374,7 @@ self.PHOTO_PWA_ASSETS = {
     "manifest.webmanifest",
     "pwa.css",
     "pwa.js",
-    "styles.css?v=d15364155a"
+    "styles.css?v=12b9b2d023",
+    "ui-layout.js?v=094d0e4381"
   ]
 };
