@@ -8,12 +8,18 @@
   const labels = [...nav.querySelectorAll('.nav-label')];
 
   function measureDock() {
-    const style = getComputedStyle(nav);
-    const room = nav.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
-    const fourColumnWidth = (room - 3 * parseFloat(style.columnGap)) / 4;
-    const labelWidth = Math.max(...labels.map(label => label.getBoundingClientRect().width));
-    nav.classList.toggle('two-rows', labelWidth + 10 > fourColumnWidth);
-    root.style.setProperty('--nav-height', `${Math.ceil(dock.getBoundingClientRect().height)}px`);
+    const desired = parseFloat(getComputedStyle(root).fontSize) * .6875;
+    const fits = labels.map(label => {
+      const button = label.closest('button');
+      const style = getComputedStyle(button);
+      const available = button.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight) - 4;
+      const width = label.getBoundingClientRect().width;
+      return width ? parseFloat(getComputedStyle(label).fontSize) * available / width : desired;
+    });
+    const size = `${Math.max(12, Math.floor(Math.min(desired, ...fits) * 10) / 10)}px`;
+    if (nav.style.getPropertyValue('--nav-label-size') !== size) nav.style.setProperty('--nav-label-size', size);
+    const height = `${Math.ceil(dock.getBoundingClientRect().height)}px`;
+    if (root.style.getPropertyValue('--nav-height') !== height) root.style.setProperty('--nav-height', height);
   }
 
   function applySystemTextSize() {
@@ -33,7 +39,11 @@
   }
 
   applySystemTextSize();
-  if (typeof ResizeObserver === 'function') new ResizeObserver(measureDock).observe(dock);
+  if (typeof ResizeObserver === 'function') {
+    const observer = new ResizeObserver(measureDock);
+    observer.observe(dock);
+    observer.observe(root);
+  }
   window.addEventListener('resize', applySystemTextSize);
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') applySystemTextSize();

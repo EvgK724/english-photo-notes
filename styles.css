@@ -41,7 +41,7 @@ body.has-audio { padding-bottom: calc(var(--nav-height) + var(--player-height, 1
   white-space: nowrap; word-break: normal; overflow-wrap: normal;
 }
 .main-nav button svg { width: 23px; height: 23px; }
-.main-nav.two-rows { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.main-nav .nav-label { font-size: var(--nav-label-size, .6875rem); white-space: nowrap; }
 .main-nav button[aria-current="page"] { background: #3b2b20; color: var(--key); }
 .main-nav .badge {
   position: absolute; top: 0; right: 0; margin: 0; padding: 0 4px;
