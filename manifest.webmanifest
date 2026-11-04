@@ -1,0 +1,28 @@
+{
+  "id": "./",
+  "name": "Английский для работы и жизни",
+  "short_name": "English Notes",
+  "description": "Английский B1–B2: короткие уроки, повторение и голос Ryan.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#1a1b1d",
+  "theme_color": "#1a1b1d",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "prefer_related_applications": false
+}

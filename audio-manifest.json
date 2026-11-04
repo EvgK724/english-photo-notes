@@ -1,0 +1,3955 @@
+{
+  "version": 2,
+  "voice": "en-GB-RyanNeural",
+  "clips": [
+    {
+      "key": "album-meetings-01",
+      "id": "album-meetings-01",
+      "path": "audio/album-meetings-01.mp3",
+      "text": "collaborate with someone on something. We collaborated with a local team on the training programme.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-02",
+      "id": "album-meetings-02",
+      "path": "audio/album-meetings-02.mp3",
+      "text": "allocate tasks. Let's allocate tasks before we start the project.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-03",
+      "id": "album-meetings-03",
+      "path": "audio/album-meetings-03.mp3",
+      "text": "by a show of hands. Let's decide by a show of hands.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-04",
+      "id": "album-meetings-04",
+      "path": "audio/album-meetings-04.mp3",
+      "text": "give an update. Could you give us an update on the project?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-05",
+      "id": "album-meetings-05",
+      "path": "audio/album-meetings-05.mp3",
+      "text": "What we need to do now is. What we need to do now is agree on a deadline.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-06",
+      "id": "album-meetings-06",
+      "path": "audio/album-meetings-06.mp3",
+      "text": "The best way to go about it is. The best way to go about it is to test one idea first.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-07",
+      "id": "album-meetings-07",
+      "path": "audio/album-meetings-07.mp3",
+      "text": "What else needs to be done is. What else needs to be done is a final check of the figures.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-meetings-08",
+      "id": "album-meetings-08",
+      "path": "audio/album-meetings-08.mp3",
+      "text": "The bottom line is. The bottom line is that we need more time.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "album-interviews-01",
+      "id": "album-interviews-01",
+      "path": "audio/album-interviews-01.mp3",
+      "text": "performance on the job. Your performance on the job matters more than your job title.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-interviews-02",
+      "id": "album-interviews-02",
+      "path": "audio/album-interviews-02.mp3",
+      "text": "demonstrate leadership qualities. She demonstrated leadership qualities when she helped the team agree on a plan.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-interviews-03",
+      "id": "album-interviews-03",
+      "path": "audio/album-interviews-03.mp3",
+      "text": "meet someone's highest standards. We worked hard to meet the client's highest standards.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-interviews-04",
+      "id": "album-interviews-04",
+      "path": "audio/album-interviews-04.mp3",
+      "text": "at the high end of the pay range. With your experience, you could ask for a salary at the high end of the pay range.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-interviews-05",
+      "id": "album-interviews-05",
+      "path": "audio/album-interviews-05.mp3",
+      "text": "pay range. Could you tell me the pay range for this position?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-interviews-06",
+      "id": "album-interviews-06",
+      "path": "audio/album-interviews-06.mp3",
+      "text": "in a cost-efficient manner. We need to deliver the training in a cost-efficient manner.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-interviews-07",
+      "id": "album-interviews-07",
+      "path": "audio/album-interviews-07.mp3",
+      "text": "industry contacts. Her industry contacts helped us find a reliable supplier.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-interviews"
+      ]
+    },
+    {
+      "key": "album-restaurant-01",
+      "id": "album-restaurant-01",
+      "path": "audio/album-restaurant-01.mp3",
+      "text": "This isn't what I ordered. Excuse me, this isn't what I ordered. I asked for a salad.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-02",
+      "id": "album-restaurant-02",
+      "path": "audio/album-restaurant-02.mp3",
+      "text": "That'll be all for now. That'll be all for now, thank you.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-03",
+      "id": "album-restaurant-03",
+      "path": "audio/album-restaurant-03.mp3",
+      "text": "decaf. Could I have a decaf, please?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-04",
+      "id": "album-restaurant-04",
+      "path": "audio/album-restaurant-04.mp3",
+      "text": "iced. I'd like an iced coffee, please.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-05",
+      "id": "album-restaurant-05",
+      "path": "audio/album-restaurant-05.mp3",
+      "text": "whole milk. Do you have whole milk for the coffee?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-06",
+      "id": "album-restaurant-06",
+      "path": "audio/album-restaurant-06.mp3",
+      "text": "skimmed milk. Could you make it with skimmed milk?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-07",
+      "id": "album-restaurant-07",
+      "path": "audio/album-restaurant-07.mp3",
+      "text": "Can I get for here. Can I get an iced latte for here?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-restaurant-09",
+      "id": "album-restaurant-09",
+      "path": "audio/album-restaurant-09.mp3",
+      "text": "That comes to. With the extra drink, that comes to twelve pounds.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-restaurant"
+      ]
+    },
+    {
+      "key": "album-reactions-01",
+      "id": "album-reactions-01",
+      "path": "audio/album-reactions-01.mp3",
+      "text": "Good for you. You passed your driving test? Good for you!",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-02",
+      "id": "album-reactions-02",
+      "path": "audio/album-reactions-02.mp3",
+      "text": "Good for you. So you're right again and everyone else is wrong. Good for you.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-03",
+      "id": "album-reactions-03",
+      "path": "audio/album-reactions-03.mp3",
+      "text": "No kidding. “I met the author yesterday.” “No kidding?”",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-04",
+      "id": "album-reactions-04",
+      "path": "audio/album-reactions-04.mp3",
+      "text": "No kidding. “This queue is long.” “No kidding! We've been waiting for an hour.”",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-05",
+      "id": "album-reactions-05",
+      "path": "audio/album-reactions-05.mp3",
+      "text": "Just saying. You might get there faster if you left now. Just saying.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-06",
+      "id": "album-reactions-06",
+      "path": "audio/album-reactions-06.mp3",
+      "text": "That's your call. We can leave today or tomorrow. That's your call.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-07",
+      "id": "album-reactions-07",
+      "path": "audio/album-reactions-07.mp3",
+      "text": "What was I saying. Sorry, I got distracted. What was I saying?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-reactions-08",
+      "id": "album-reactions-08",
+      "path": "audio/album-reactions-08.mp3",
+      "text": "blurt out. He blurted out the answer before she finished the question.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "outside-last229-7421590a717d",
+      "id": "outside-last229-7421590a717d",
+      "path": "audio/outside-last229-7421590a717d.mp3",
+      "text": "It doesn't count. That was only a practice round, so it doesn't count.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-reactions"
+      ]
+    },
+    {
+      "key": "album-repair-01",
+      "id": "album-repair-01",
+      "path": "audio/album-repair-01.mp3",
+      "text": "No hard feelings. I didn't get the role, but no hard feelings.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-02",
+      "id": "album-repair-02",
+      "path": "audio/album-repair-02.mp3",
+      "text": "I meant no offense. I'm sorry my comment sounded rude. I meant no offense.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-03",
+      "id": "album-repair-03",
+      "path": "audio/album-repair-03.mp3",
+      "text": "No offense taken. No offense taken. I know you were trying to help.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-04",
+      "id": "album-repair-04",
+      "path": "audio/album-repair-04.mp3",
+      "text": "Are we good. I'm sorry about yesterday. Are we good?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-05",
+      "id": "album-repair-05",
+      "path": "audio/album-repair-05.mp3",
+      "text": "clear the air. We had an honest talk to clear the air.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-06",
+      "id": "album-repair-06",
+      "path": "audio/album-repair-06.mp3",
+      "text": "screw up. I screwed up the booking and chose the wrong date.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-07",
+      "id": "album-repair-07",
+      "path": "audio/album-repair-07.mp3",
+      "text": "drop the ball. I dropped the ball and forgot to send the documents.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-08",
+      "id": "album-repair-08",
+      "path": "audio/album-repair-08.mp3",
+      "text": "get around a problem. We got around the problem by using a different entrance.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-repair-09",
+      "id": "album-repair-09",
+      "path": "audio/album-repair-09.mp3",
+      "text": "back down. After hearing the new evidence, he backed down.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-repair"
+      ]
+    },
+    {
+      "key": "album-relationships-01",
+      "id": "album-relationships-01",
+      "path": "audio/album-relationships-01.mp3",
+      "text": "enjoy each other's company. We don't agree on everything, but we enjoy each other's company.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-02",
+      "id": "album-relationships-02",
+      "path": "audio/album-relationships-02.mp3",
+      "text": "significant other. You're welcome to bring your significant other to dinner.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-03",
+      "id": "album-relationships-03",
+      "path": "audio/album-relationships-03.mp3",
+      "text": "go back a long way. We go back a long way; we met at university.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-04",
+      "id": "album-relationships-04",
+      "path": "audio/album-relationships-04.mp3",
+      "text": "feel like a third wheel. I felt like a third wheel at dinner with the couple.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-05",
+      "id": "album-relationships-05",
+      "path": "audio/album-relationships-05.mp3",
+      "text": "be faithful to someone. They promised to be faithful to each other.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-06",
+      "id": "album-relationships-06",
+      "path": "audio/album-relationships-06.mp3",
+      "text": "ghost someone. After two dates, he ghosted her and stopped replying.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-07",
+      "id": "album-relationships-07",
+      "path": "audio/album-relationships-07.mp3",
+      "text": "give someone the cold shoulder. She gave me the cold shoulder after our argument.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-relationships-08",
+      "id": "album-relationships-08",
+      "path": "audio/album-relationships-08.mp3",
+      "text": "a shoulder to cry on. After a difficult week, I needed a shoulder to cry on.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "outside-last229-5b84790ba810",
+      "id": "outside-last229-5b84790ba810",
+      "path": "audio/outside-last229-5b84790ba810.mp3",
+      "text": "spouse. Employees may bring their spouse to the annual dinner.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "outside-first229-9cc86d44977f",
+      "id": "outside-first229-9cc86d44977f",
+      "path": "audio/outside-first229-9cc86d44977f.mp3",
+      "text": "as a token of thanks. We gave the volunteer a small gift as a token of thanks.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "outside-first229-e194302fc1a7",
+      "id": "outside-first229-e194302fc1a7",
+      "path": "audio/outside-first229-e194302fc1a7.mp3",
+      "text": "something to remember someone by. She gave me a sketch as something to remember her by.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "outside-first229-8967eb61865e",
+      "id": "outside-first229-8967eb61865e",
+      "path": "audio/outside-first229-8967eb61865e.mp3",
+      "text": "pick on someone. The supervisor kept picking on the newest member of the team.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "outside-first229-word-5f54535fb1f7",
+      "id": "outside-first229-word-5f54535fb1f7",
+      "path": "audio/outside-first229-word-5f54535fb1f7.mp3",
+      "text": "sincere. Please accept my sincere apology for missing our meeting.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "outside-first229-gap-put-through",
+      "id": "outside-first229-gap-put-through",
+      "path": "audio/outside-first229-gap-put-through.mp3",
+      "text": "put someone through something. I am sorry I put you through such a stressful week.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-relationships"
+      ]
+    },
+    {
+      "key": "album-stress-01",
+      "id": "album-stress-01",
+      "path": "audio/album-stress-01.mp3",
+      "text": "be on edge. The constant noise has kept me on edge all day.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-02",
+      "id": "album-stress-02",
+      "path": "audio/album-stress-02.mp3",
+      "text": "feel uptight. I felt uptight before the meeting and couldn't relax.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-03",
+      "id": "album-stress-03",
+      "path": "audio/album-stress-03.mp3",
+      "text": "be a bundle of nerves. I was a bundle of nerves before my presentation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-04",
+      "id": "album-stress-04",
+      "path": "audio/album-stress-04.mp3",
+      "text": "be emotionally overwhelmed. She felt emotionally overwhelmed after so many changes.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-05",
+      "id": "album-stress-05",
+      "path": "audio/album-stress-05.mp3",
+      "text": "short-tempered. I'm more short-tempered when I haven't had enough sleep.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-06",
+      "id": "album-stress-06",
+      "path": "audio/album-stress-06.mp3",
+      "text": "be in no mood to do something. I'm in no mood to argue tonight.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-07",
+      "id": "album-stress-07",
+      "path": "audio/album-stress-07.mp3",
+      "text": "drive someone nuts. That dripping tap is driving me nuts.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-stress-08",
+      "id": "album-stress-08",
+      "path": "audio/album-stress-08.mp3",
+      "text": "reduce tension. A calm explanation helped reduce tension in the room.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "outside-last229-61968c4fb07d",
+      "id": "outside-last229-61968c4fb07d",
+      "path": "audio/outside-last229-61968c4fb07d.mp3",
+      "text": "resentful. She felt resentful about having to do all the extra work.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "outside-last229-2f9afd9a3fce",
+      "id": "outside-last229-2f9afd9a3fce",
+      "path": "audio/outside-last229-2f9afd9a3fce.mp3",
+      "text": "upbeat. Despite the delay, the team stayed upbeat about finishing the project.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-stress"
+      ]
+    },
+    {
+      "key": "album-messages-01",
+      "id": "album-messages-01",
+      "path": "audio/album-messages-01.mp3",
+      "text": "copy someone in on something. Please copy me in on your reply to the supplier.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-02",
+      "id": "album-messages-02",
+      "path": "audio/album-messages-02.mp3",
+      "text": "send in. She sent in two photos for the local art contest.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-03",
+      "id": "album-messages-03",
+      "path": "audio/album-messages-03.mp3",
+      "text": "send on. I've sent the invitation on to the rest of the team.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-04",
+      "id": "album-messages-04",
+      "path": "audio/album-messages-04.mp3",
+      "text": "write in to someone for something. I wrote in to the museum for a copy of its visitor guide.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-05",
+      "id": "album-messages-05",
+      "path": "audio/album-messages-05.mp3",
+      "text": "type in. Type in the booking number to see your reservation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-06",
+      "id": "album-messages-06",
+      "path": "audio/album-messages-06.mp3",
+      "text": "hit someone up. Hit me up when you get to town, and we'll find a place for lunch.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-07",
+      "id": "album-messages-07",
+      "path": "audio/album-messages-07.mp3",
+      "text": "pick up. The phone rang twice before I picked up.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-messages-08",
+      "id": "album-messages-08",
+      "path": "audio/album-messages-08.mp3",
+      "text": "ask for someone. Call the workshop and ask for the manager.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "album-home-01",
+      "id": "album-home-01",
+      "path": "audio/album-home-01.mp3",
+      "text": "walk a dog. I walk the dog along the river before breakfast.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "album-home-02",
+      "id": "album-home-02",
+      "path": "audio/album-home-02.mp3",
+      "text": "play fetch. Our dog loves to play fetch with an old tennis ball.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "album-home-03",
+      "id": "album-home-03",
+      "path": "audio/album-home-03.mp3",
+      "text": "wring out. She wrung out the wet cloth and wiped the table.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "album-home-04",
+      "id": "album-home-04",
+      "path": "audio/album-home-04.mp3",
+      "text": "scour. I had to scour the pan to remove the burnt sauce.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "album-home-05",
+      "id": "album-home-05",
+      "path": "audio/album-home-05.mp3",
+      "text": "bedding. We keep spare bedding in the cupboard beside the bedroom.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "outside-additional-04",
+      "id": "outside-additional-04",
+      "path": "audio/outside-additional-04.mp3",
+      "text": "rustle up. I can rustle up a quick lunch for us.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "outside-first229-15c216ad956e",
+      "id": "outside-first229-15c216ad956e",
+      "path": "audio/outside-first229-15c216ad956e.mp3",
+      "text": "tuck something in. Your shirt is hanging out; tuck it in before the meeting.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-home"
+      ]
+    },
+    {
+      "key": "album-experiences-01",
+      "id": "album-experiences-01",
+      "path": "audio/album-experiences-01.mp3",
+      "text": "thought-provoking. The documentary was thought-provoking, so we talked about it all evening.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-experiences"
+      ]
+    },
+    {
+      "key": "album-experiences-02",
+      "id": "album-experiences-02",
+      "path": "audio/album-experiences-02.mp3",
+      "text": "action-packed. We watched an action-packed film about a rescue at sea.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-experiences"
+      ]
+    },
+    {
+      "key": "album-experiences-03",
+      "id": "album-experiences-03",
+      "path": "audio/album-experiences-03.mp3",
+      "text": "page-turner. That mystery novel is a real page-turner; I finished it in two evenings.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-experiences"
+      ]
+    },
+    {
+      "key": "album-experiences-04",
+      "id": "album-experiences-04",
+      "path": "audio/album-experiences-04.mp3",
+      "text": "rehearsal. The choir has a final rehearsal in the hall on Saturday.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-experiences"
+      ]
+    },
+    {
+      "key": "album-experiences-05",
+      "id": "album-experiences-05",
+      "path": "audio/album-experiences-05.mp3",
+      "text": "first-hand experience. Working in a small hotel gave me first-hand experience of dealing with guests.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-experiences"
+      ]
+    },
+    {
+      "key": "album-experiences-06",
+      "id": "album-experiences-06",
+      "path": "audio/album-experiences-06.mp3",
+      "text": "experience shows that. Experience shows that short meetings work best when everyone prepares in advance.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-experiences"
+      ]
+    },
+    {
+      "key": "album-explain-01",
+      "id": "album-explain-01",
+      "path": "audio/album-explain-01.mp3",
+      "text": "add up. He says the shop was closed, but I saw customers inside. His story doesn't add up.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-explain-02",
+      "id": "album-explain-02",
+      "path": "audio/album-explain-02.mp3",
+      "text": "get around. News of the free workshop got around, and every place was booked.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-explain-04",
+      "id": "album-explain-04",
+      "path": "audio/album-explain-04.mp3",
+      "text": "keep someone in the dark. Please don't keep the volunteers in the dark about the change of venue.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-explain-05",
+      "id": "album-explain-05",
+      "path": "audio/album-explain-05.mp3",
+      "text": "take a rain check on something. Can I take a rain check on lunch? I have a deadline today, but I'm free tomorrow.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-explain-06",
+      "id": "album-explain-06",
+      "path": "audio/album-explain-06.mp3",
+      "text": "put it another way. We need to reduce the waiting time. To put it another way, the service must be faster.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-explain-07",
+      "id": "album-explain-07",
+      "path": "audio/album-explain-07.mp3",
+      "text": "walk someone through something. Could you walk me through the process of returning an online order?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-explain-08",
+      "id": "album-explain-08",
+      "path": "audio/album-explain-08.mp3",
+      "text": "come in handy. Keep that small torch in your bag; it may come in handy on the way home.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "album-progress-01",
+      "id": "album-progress-01",
+      "path": "audio/album-progress-01.mp3",
+      "text": "setback. Losing the venue was a setback, but we found another hall the next day.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "album-progress-02",
+      "id": "album-progress-02",
+      "path": "audio/album-progress-02.mp3",
+      "text": "set someone or something back. The delayed delivery set the renovation back by a week.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "album-progress-03",
+      "id": "album-progress-03",
+      "path": "audio/album-progress-03.mp3",
+      "text": "prosperous. New businesses have turned the old port into a prosperous town.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "album-progress-04",
+      "id": "album-progress-04",
+      "path": "audio/album-progress-04.mp3",
+      "text": "earnings. Her earnings rose when she started taking on larger design projects.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "album-progress-05",
+      "id": "album-progress-05",
+      "path": "audio/album-progress-05.mp3",
+      "text": "put in effort. The team put in extra effort to make the instructions easy to follow.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "album-progress-06",
+      "id": "album-progress-06",
+      "path": "audio/album-progress-06.mp3",
+      "text": "a person of integrity. Mira is a person of integrity: she admitted the mistake even though no one had noticed it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "album-progress-07",
+      "id": "album-progress-07",
+      "path": "audio/album-progress-07.mp3",
+      "text": "lack experience. He lacks experience in managing a team, but he learns quickly.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "outside-last229-b20d28701fa0",
+      "id": "outside-last229-b20d28701fa0",
+      "path": "audio/outside-last229-b20d28701fa0.mp3",
+      "text": "see through. The repair took longer than expected, but we saw it through.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "outside-first229-word-7aff9eb5467d",
+      "id": "outside-first229-word-7aff9eb5467d",
+      "path": "audio/outside-first229-word-7aff9eb5467d.mp3",
+      "text": "hinder. Constant interruptions can hinder progress on a difficult task.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-progress"
+      ]
+    },
+    {
+      "key": "outside-final-wod-2111ba02b38a",
+      "id": "outside-final-wod-2111ba02b38a",
+      "path": "audio/outside-final-wod-2111ba02b38a.mp3",
+      "text": "pick up the check. I'll pick up the check this time.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-cea1ec39bf4c",
+      "id": "outside-final-wod-cea1ec39bf4c",
+      "path": "audio/outside-final-wod-cea1ec39bf4c.mp3",
+      "text": "it's on me. Order a coffee — it's on me.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-785f10e91841",
+      "id": "outside-final-wod-785f10e91841",
+      "path": "audio/outside-final-wod-785f10e91841.mp3",
+      "text": "split the check. Shall we split the check between the three of us?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-0bf341fd258e",
+      "id": "outside-final-wod-0bf341fd258e",
+      "path": "audio/outside-final-wod-0bf341fd258e.mp3",
+      "text": "on the house. The café gave us dessert on the house.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-bc2758cf9f6e",
+      "id": "outside-final-wod-bc2758cf9f6e",
+      "path": "audio/outside-final-wod-bc2758cf9f6e.mp3",
+      "text": "chip in. We all chipped in to buy a farewell gift.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-2cef00b4a6f9",
+      "id": "outside-final-wod-2cef00b4a6f9",
+      "path": "audio/outside-final-wod-2cef00b4a6f9.mp3",
+      "text": "fork out. I had to fork out for a new laptop charger.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-36307fdaa731",
+      "id": "outside-final-wod-36307fdaa731",
+      "path": "audio/outside-final-wod-36307fdaa731.mp3",
+      "text": "bring the price down. We brought the price down by comparing other offers.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-last229-d9eb5c55f10c",
+      "id": "outside-last229-d9eb5c55f10c",
+      "path": "audio/outside-last229-d9eb5c55f10c.mp3",
+      "text": "Keep the change. Here's twenty pounds for the taxi. Keep the change.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-first229-d1c80a60d13f",
+      "id": "outside-first229-d1c80a60d13f",
+      "path": "audio/outside-first229-d1c80a60d13f.mp3",
+      "text": "come into money. He came into some money and used it to repair the house.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-payments-and-sharing"
+      ]
+    },
+    {
+      "key": "outside-final-wod-2b46b7244add",
+      "id": "outside-final-wod-2b46b7244add",
+      "path": "audio/outside-final-wod-2b46b7244add.mp3",
+      "text": "drift off. I drifted off while listening to the rain.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-final-usage-0155b36c22ee",
+      "id": "outside-final-usage-0155b36c22ee",
+      "path": "audio/outside-final-usage-0155b36c22ee.mp3",
+      "text": "nod off. He nodded off during the long film.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-final-wod-a65267660f75",
+      "id": "outside-final-wod-a65267660f75",
+      "path": "audio/outside-final-wod-a65267660f75.mp3",
+      "text": "zone out. I zoned out and missed the last question.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-final-syn-eb2fcfd5f919",
+      "id": "outside-final-syn-eb2fcfd5f919",
+      "path": "audio/outside-final-syn-eb2fcfd5f919.mp3",
+      "text": "catch up on sleep. I'm hoping to catch up on sleep this weekend.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-final-syn-771ab65aa46d",
+      "id": "outside-final-syn-771ab65aa46d",
+      "path": "audio/outside-final-syn-771ab65aa46d.mp3",
+      "text": "unwind. A quiet walk helps me unwind after work.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-final-wod-7787f5a8a265",
+      "id": "outside-final-wod-7787f5a8a265",
+      "path": "audio/outside-final-wod-7787f5a8a265.mp3",
+      "text": "lounge. We lounged on the sofa and listened to music.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-additional-02",
+      "id": "outside-additional-02",
+      "path": "audio/outside-additional-02.mp3",
+      "text": "draw a blank. I knew her name, but I drew a blank.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-additional-15",
+      "id": "outside-additional-15",
+      "path": "audio/outside-additional-15.mp3",
+      "text": "blow off steam. I go for a long walk to blow off steam after work.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-last229-d3f91a82893a",
+      "id": "outside-last229-d3f91a82893a",
+      "path": "audio/outside-last229-d3f91a82893a.mp3",
+      "text": "burn out. She worries that she will burn out if she keeps working every weekend.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-attention-and-rest"
+      ]
+    },
+    {
+      "key": "outside-final-wod-a6cf729f793e",
+      "id": "outside-final-wod-a6cf729f793e",
+      "path": "audio/outside-final-wod-a6cf729f793e.mp3",
+      "text": "take something out on someone. She was tired, but she didn't take it out on anyone.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-wod-d70a93a0912b",
+      "id": "outside-final-wod-d70a93a0912b",
+      "path": "audio/outside-final-wod-d70a93a0912b.mp3",
+      "text": "back someone up. I'll back you up if you raise the issue at the meeting.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-syn-32badae02e80",
+      "id": "outside-final-syn-32badae02e80",
+      "path": "audio/outside-final-syn-32badae02e80.mp3",
+      "text": "stick up for. She stuck up for her colleague when he was blamed unfairly.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-syn-d8499034f790",
+      "id": "outside-final-syn-d8499034f790",
+      "path": "audio/outside-final-syn-d8499034f790.mp3",
+      "text": "brush someone or something off. Don't brush off her suggestion before you hear it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-syn-beb0c7983a90",
+      "id": "outside-final-syn-beb0c7983a90",
+      "path": "audio/outside-final-syn-beb0c7983a90.mp3",
+      "text": "spoil someone. Their grandparents love to spoil them with little gifts.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-wod-27d325f91d9d",
+      "id": "outside-final-wod-27d325f91d9d",
+      "path": "audio/outside-final-wod-27d325f91d9d.mp3",
+      "text": "cross the line. The discussion was lively, but that personal comment crossed the line.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-wod-a0df6d9badd6",
+      "id": "outside-final-wod-a0df6d9badd6",
+      "path": "audio/outside-final-wod-a0df6d9badd6.mp3",
+      "text": "hit a nerve. His question about the failed project hit a nerve.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-wod-eb136bd88d29",
+      "id": "outside-final-wod-eb136bd88d29",
+      "path": "audio/outside-final-wod-eb136bd88d29.mp3",
+      "text": "leave someone high and dry. The cancelled bus left us high and dry at the station.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-additional-19",
+      "id": "outside-additional-19",
+      "path": "audio/outside-additional-19.mp3",
+      "text": "push someone’s buttons. He knows exactly how to push my buttons.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-additional-30",
+      "id": "outside-additional-30",
+      "path": "audio/outside-additional-30.mp3",
+      "text": "console someone. I tried to console him after the bad news.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-first229-3df101f832b6",
+      "id": "outside-first229-3df101f832b6",
+      "path": "audio/outside-first229-3df101f832b6.mp3",
+      "text": "help someone out. Could you help me out with these boxes?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-first229-c2c16b58a498",
+      "id": "outside-first229-c2c16b58a498",
+      "path": "audio/outside-first229-c2c16b58a498.mp3",
+      "text": "step in. The manager stepped in when the discussion became too heated.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-support-and-boundaries"
+      ]
+    },
+    {
+      "key": "outside-final-syn-44e534c543a8",
+      "id": "outside-final-syn-44e534c543a8",
+      "path": "audio/outside-final-syn-44e534c543a8.mp3",
+      "text": "out of the loop. I was away last week, so I'm a bit out of the loop.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-final-syn-86d994cb03aa",
+      "id": "outside-final-syn-86d994cb03aa",
+      "path": "audio/outside-final-syn-86d994cb03aa.mp3",
+      "text": "opt out. You can opt out of the extra workshop.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-final-syn-afc0d380eafd",
+      "id": "outside-final-syn-afc0d380eafd",
+      "path": "audio/outside-final-syn-afc0d380eafd.mp3",
+      "text": "reconsider. We should reconsider the date before sending invitations.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-final-syn-8f1a799e56a8",
+      "id": "outside-final-syn-8f1a799e56a8",
+      "path": "audio/outside-final-syn-8f1a799e56a8.mp3",
+      "text": "stand in for. I'm standing in for Maya at today's meeting.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-final-syn-154c05242ac6",
+      "id": "outside-final-syn-154c05242ac6",
+      "path": "audio/outside-final-syn-154c05242ac6.mp3",
+      "text": "cover for. Could you cover for me during the morning session?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-final-wod-5bf107381aa6",
+      "id": "outside-final-wod-5bf107381aa6",
+      "path": "audio/outside-final-wod-5bf107381aa6.mp3",
+      "text": "resourceful. She's resourceful and usually finds a workable solution.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-last229-1e5f41d5eadb",
+      "id": "outside-last229-1e5f41d5eadb",
+      "path": "audio/outside-last229-1e5f41d5eadb.mp3",
+      "text": "entail. The new role entails travelling to several offices each month.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-last229-82b9a87ff2f3",
+      "id": "outside-last229-82b9a87ff2f3",
+      "path": "audio/outside-last229-82b9a87ff2f3.mp3",
+      "text": "read up on. I read up on local customs before visiting a new country.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "named-final-1b-173",
+      "id": "named-final-1b-173",
+      "path": "audio/named-final-1b-173.mp3",
+      "text": "paid leave. She took a week of paid leave to visit her family.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "outside-final-wod-53fddb92c322",
+      "id": "outside-final-wod-53fddb92c322",
+      "path": "audio/outside-final-wod-53fddb92c322.mp3",
+      "text": "do the trick. A short break should do the trick.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-8918a8e2c263",
+      "id": "outside-final-wod-8918a8e2c263",
+      "path": "audio/outside-final-wod-8918a8e2c263.mp3",
+      "text": "go haywire. The sound system went haywire just before the talk.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-09eecf37ea52",
+      "id": "outside-final-wod-09eecf37ea52",
+      "path": "audio/outside-final-wod-09eecf37ea52.mp3",
+      "text": "back out of. He backed out of the agreement at the last minute.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-677d78f4132d",
+      "id": "outside-final-wod-677d78f4132d",
+      "path": "audio/outside-final-wod-677d78f4132d.mp3",
+      "text": "boil down to. The choice boils down to time and cost.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-23b266941dc0",
+      "id": "outside-final-wod-23b266941dc0",
+      "path": "audio/outside-final-wod-23b266941dc0.mp3",
+      "text": "false alarm. I thought the file was missing, but it was a false alarm.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-559f18af40a7",
+      "id": "outside-final-wod-559f18af40a7",
+      "path": "audio/outside-final-wod-559f18af40a7.mp3",
+      "text": "run into a problem. We ran into a problem with the booking system.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-5084713af5a9",
+      "id": "outside-final-wod-5084713af5a9",
+      "path": "audio/outside-final-wod-5084713af5a9.mp3",
+      "text": "glitch. There's a small glitch in the search menu.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-ee34ecd27f6b",
+      "id": "outside-final-wod-ee34ecd27f6b",
+      "path": "audio/outside-final-wod-ee34ecd27f6b.mp3",
+      "text": "outage. The internet outage lasted nearly an hour.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-additional-01",
+      "id": "outside-additional-01",
+      "path": "audio/outside-additional-01.mp3",
+      "text": "fizzle out. The project fizzled out when the funding stopped.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-last229-68b93b820cf2",
+      "id": "outside-last229-68b93b820cf2",
+      "path": "audio/outside-last229-68b93b820cf2.mp3",
+      "text": "let up. The rain finally let up, so we left the café and walked home.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-last229-d44f1275a584",
+      "id": "outside-last229-d44f1275a584",
+      "path": "audio/outside-last229-d44f1275a584.mp3",
+      "text": "blow over. The argument will blow over once everyone has had time to calm down.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-3c0d624379f0",
+      "id": "root-tail-3c0d624379f0",
+      "path": "audio/root-tail-3c0d624379f0.mp3",
+      "text": "save the day. The backup copy saved the day when my laptop failed.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-00887cf66b78",
+      "id": "root-tail-00887cf66b78",
+      "path": "audio/root-tail-00887cf66b78.mp3",
+      "text": "come around. He came around a few minutes later and asked where he was.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-7e634672b16f",
+      "id": "root-tail-7e634672b16f",
+      "path": "audio/root-tail-7e634672b16f.mp3",
+      "text": "bounce back. The team bounced back after a difficult month.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-26514028c2b1",
+      "id": "root-tail-26514028c2b1",
+      "path": "audio/root-tail-26514028c2b1.mp3",
+      "text": "address. tackle a problem. We need to address the delay before we tackle the larger problem.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-23100d6acb4f",
+      "id": "root-tail-23100d6acb4f",
+      "path": "audio/root-tail-23100d6acb4f.mp3",
+      "text": "find it hard. difficult to do something. I find it hard to concentrate when people talk nearby.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-6f28c8def0d3",
+      "id": "root-tail-6f28c8def0d3",
+      "path": "audio/root-tail-6f28c8def0d3.mp3",
+      "text": "come to a head. The disagreement came to a head during the meeting.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "root-tail-84de828f6550",
+      "id": "root-tail-84de828f6550",
+      "path": "audio/root-tail-84de828f6550.mp3",
+      "text": "a slippery slope. Ignoring small errors can be a slippery slope.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-44d1e98aa5dc",
+      "id": "outside-final-wod-44d1e98aa5dc",
+      "path": "audio/outside-final-wod-44d1e98aa5dc.mp3",
+      "text": "in other words. The room is fully booked. In other words, we need another venue.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-final-syn-4ba4a65fa625",
+      "id": "outside-final-syn-4ba4a65fa625",
+      "path": "audio/outside-final-syn-4ba4a65fa625.mp3",
+      "text": "speak frankly. Can we speak frankly about what went wrong?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-final-wod-504d0871ddb4",
+      "id": "outside-final-wod-504d0871ddb4",
+      "path": "audio/outside-final-wod-504d0871ddb4.mp3",
+      "text": "off the top of my head. Off the top of my head, I can think of three options.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-final-syn-2e45bf04bcd8",
+      "id": "outside-final-syn-2e45bf04bcd8",
+      "path": "audio/outside-final-syn-2e45bf04bcd8.mp3",
+      "text": "on the fly. We adjusted the plan on the fly.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-final-syn-478bfe2f1621",
+      "id": "outside-final-syn-478bfe2f1621",
+      "path": "audio/outside-final-syn-478bfe2f1621.mp3",
+      "text": "off the cuff. She gave a short answer off the cuff.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-final-syn-72fb9f8cdc5c",
+      "id": "outside-final-syn-72fb9f8cdc5c",
+      "path": "audio/outside-final-syn-72fb9f8cdc5c.mp3",
+      "text": "to put it simply. To put it simply, we need more time.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-additional-07",
+      "id": "outside-additional-07",
+      "path": "audio/outside-additional-07.mp3",
+      "text": "overhear. I overheard them discussing the new timetable.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-last229-8a4ecc27395d",
+      "id": "outside-last229-8a4ecc27395d",
+      "path": "audio/outside-last229-8a4ecc27395d.mp3",
+      "text": "What are you driving at. You keep asking about our budget. What are you driving at?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-last229-7c97cc749fd2",
+      "id": "outside-last229-7c97cc749fd2",
+      "path": "audio/outside-last229-7c97cc749fd2.mp3",
+      "text": "To say the least. The room was disappointing, to say the least: the lights didn't work and the window wouldn't close.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-86d821b4903d",
+      "id": "root-tail-86d821b4903d",
+      "path": "audio/root-tail-86d821b4903d.mp3",
+      "text": "save your breath. Save your breath; they've already made their decision.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-a6f3c72e5a94",
+      "id": "root-tail-a6f3c72e5a94",
+      "path": "audio/root-tail-a6f3c72e5a94.mp3",
+      "text": "save face. We offered a compromise so that both sides could save face.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-cf8430be3a8c",
+      "id": "root-tail-cf8430be3a8c",
+      "path": "audio/root-tail-cf8430be3a8c.mp3",
+      "text": "I owe you one. Thanks for covering my shift. I owe you one.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-b2252d05916a",
+      "id": "root-tail-b2252d05916a",
+      "path": "audio/root-tail-b2252d05916a.mp3",
+      "text": "Be my guest. Can I use this chair? — Be my guest.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-2f1b018d6e64",
+      "id": "root-tail-2f1b018d6e64",
+      "path": "audio/root-tail-2f1b018d6e64.mp3",
+      "text": "at ease. Her friendly manner put everyone at ease.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-20b42b9a4282",
+      "id": "root-tail-20b42b9a4282",
+      "path": "audio/root-tail-20b42b9a4282.mp3",
+      "text": "give or take. The journey takes two hours, give or take ten minutes.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "root-tail-ef327ad7052e",
+      "id": "root-tail-ef327ad7052e",
+      "path": "audio/root-tail-ef327ad7052e.mp3",
+      "text": "be up in arms about something. Residents were up in arms about the sudden closure.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-06",
+      "id": "outside-unrecognised-06",
+      "path": "audio/outside-unrecognised-06.mp3",
+      "text": "in passing. She mentioned in passing that the office might move.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-first229-42c5d0183281",
+      "id": "outside-first229-42c5d0183281",
+      "path": "audio/outside-first229-42c5d0183281.mp3",
+      "text": "raise objections. Several colleagues raised objections to the new timetable.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-first229-67400dc350db",
+      "id": "outside-first229-67400dc350db",
+      "path": "audio/outside-first229-67400dc350db.mp3",
+      "text": "take something down. Let me take down the address before I forget it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-first229-9b7526d0247a",
+      "id": "outside-first229-9b7526d0247a",
+      "path": "audio/outside-first229-9b7526d0247a.mp3",
+      "text": "talk someone into doing something. My friend talked me into joining the evening class.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-first229-b87a517f742c",
+      "id": "outside-first229-b87a517f742c",
+      "path": "audio/outside-first229-b87a517f742c.mp3",
+      "text": "spell something out. Please spell out what you need from our team.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "named-final-1b-006",
+      "id": "named-final-1b-006",
+      "path": "audio/named-final-1b-006.mp3",
+      "text": "Let me get this straight…. Let me get this straight: we need two copies by Friday.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-clear-speaking"
+      ]
+    },
+    {
+      "key": "outside-final-wod-8e0aaaf82dcc",
+      "id": "outside-final-wod-8e0aaaf82dcc",
+      "path": "audio/outside-final-wod-8e0aaaf82dcc.mp3",
+      "text": "genuine. The museum confirmed that the letter was genuine.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-useful-new-senses"
+      ]
+    },
+    {
+      "key": "outside-final-wod-54998aa0f13e",
+      "id": "outside-final-wod-54998aa0f13e",
+      "path": "audio/outside-final-wod-54998aa0f13e.mp3",
+      "text": "an edge. Her experience gives her an edge over the other applicants.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-useful-new-senses"
+      ]
+    },
+    {
+      "key": "outside-final-syn-ddfb7a95a015",
+      "id": "outside-final-syn-ddfb7a95a015",
+      "path": "audio/outside-final-syn-ddfb7a95a015.mp3",
+      "text": "drive. He has the drive to finish a difficult project.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-useful-new-senses"
+      ]
+    },
+    {
+      "key": "outside-final-syn-b7fba151aef1",
+      "id": "outside-final-syn-b7fba151aef1",
+      "path": "audio/outside-final-syn-b7fba151aef1.mp3",
+      "text": "stall. She kept asking questions to stall.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-useful-new-senses"
+      ]
+    },
+    {
+      "key": "outside-final-wod-b1e636fe8ca0",
+      "id": "outside-final-wod-b1e636fe8ca0",
+      "path": "audio/outside-final-wod-b1e636fe8ca0.mp3",
+      "text": "unplug. I unplugged my charger before leaving.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-final-syn-73206ea17508",
+      "id": "outside-final-syn-73206ea17508",
+      "path": "audio/outside-final-syn-73206ea17508.mp3",
+      "text": "disconnect. My headset disconnected in the middle of the call.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-final-syn-879dd4542753",
+      "id": "outside-final-syn-879dd4542753",
+      "path": "audio/outside-final-syn-879dd4542753.mp3",
+      "text": "hook up. We hooked the speaker up to the laptop.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-cd2af39ed49d",
+      "id": "outside-final-wod-cd2af39ed49d",
+      "path": "audio/outside-final-wod-cd2af39ed49d.mp3",
+      "text": "wrap up a gift. We wrapped up the present before dinner.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "root-tail-2e65f5873650",
+      "id": "root-tail-2e65f5873650",
+      "path": "audio/root-tail-2e65f5873650.mp3",
+      "text": "enable. disable a feature. You can disable notifications and enable them again later.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "root-tail-d0e9abfa6995",
+      "id": "root-tail-d0e9abfa6995",
+      "path": "audio/root-tail-d0e9abfa6995.mp3",
+      "text": "boot. reboot a computer. The computer won't boot, so we may need to restart it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-first229-0bf75a5e2722",
+      "id": "outside-first229-0bf75a5e2722",
+      "path": "audio/outside-first229-0bf75a5e2722.mp3",
+      "text": "die down. The noise died down after the guests left.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-first229-8e74dff7a599",
+      "id": "outside-first229-8e74dff7a599",
+      "path": "audio/outside-first229-8e74dff7a599.mp3",
+      "text": "act up. The printer is acting up again and keeps stopping halfway through a page.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-first229-ad294ce59912",
+      "id": "outside-first229-ad294ce59912",
+      "path": "audio/outside-first229-ad294ce59912.mp3",
+      "text": "tell things apart. The two keys look alike, but I can tell them apart by their labels.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-first229-b8263953037b",
+      "id": "outside-first229-b8263953037b",
+      "path": "audio/outside-first229-b8263953037b.mp3",
+      "text": "turn in. I have an early start tomorrow, so I think I will turn in.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-devices-and-actions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-b4bad5884906",
+      "id": "outside-final-wod-b4bad5884906",
+      "path": "audio/outside-final-wod-b4bad5884906.mp3",
+      "text": "resonate with. Her story resonated with everyone in the room.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-reading-and-reactions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-2b427cb5fa25",
+      "id": "outside-final-wod-2b427cb5fa25",
+      "path": "audio/outside-final-wod-2b427cb5fa25.mp3",
+      "text": "bold. That was a bold decision, but it worked.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-reading-and-reactions"
+      ]
+    },
+    {
+      "key": "outside-final-wod-7302bbf96257",
+      "id": "outside-final-wod-7302bbf96257",
+      "path": "audio/outside-final-wod-7302bbf96257.mp3",
+      "text": "flatter. He tried to flatter the manager before asking for a favour.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-reading-and-reactions"
+      ]
+    },
+    {
+      "key": "outside-additional-08",
+      "id": "outside-additional-08",
+      "path": "audio/outside-additional-08.mp3",
+      "text": "smirk. He smirked when he realised he had won.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-reading-and-reactions"
+      ]
+    },
+    {
+      "key": "outside-additional-27",
+      "id": "outside-additional-27",
+      "path": "audio/outside-additional-27.mp3",
+      "text": "crack up. We all cracked up when she told the story.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-reading-and-reactions"
+      ]
+    },
+    {
+      "key": "outside-additional-31",
+      "id": "outside-additional-31",
+      "path": "audio/outside-additional-31.mp3",
+      "text": "fascination with. Her fascination with languages began at school.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-reading-and-reactions"
+      ]
+    },
+    {
+      "key": "root-2ea60ca34e08",
+      "id": "root-2ea60ca34e08",
+      "path": "audio/root-2ea60ca34e08.mp3",
+      "text": "food. a meal. The food was excellent, and we enjoyed a long meal together.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "root-a6a1c19a85fe",
+      "id": "root-a6a1c19a85fe",
+      "path": "audio/root-a6a1c19a85fe.mp3",
+      "text": "a mistake. an error. I made a mistake in the address, and the system showed an error.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "root-878c168fb3da",
+      "id": "root-878c168fb3da",
+      "path": "audio/root-878c168fb3da.mp3",
+      "text": "a story. history. Her story made me interested in the history of the town.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "root-11527aeea7d3",
+      "id": "root-11527aeea7d3",
+      "path": "audio/root-11527aeea7d3.mp3",
+      "text": "sense that something is wrong. I sensed that something was wrong when the room went quiet.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "root-0ec4b8645937",
+      "id": "root-0ec4b8645937",
+      "path": "audio/root-0ec4b8645937.mp3",
+      "text": "chest. The badge was pinned to the left side of his chest.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "root-b185dc945a22",
+      "id": "root-b185dc945a22",
+      "path": "audio/root-b185dc945a22.mp3",
+      "text": "get dressed. dress someone. I got dressed while my partner dressed our toddler.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "outside-last229-92fb97d3dfb5",
+      "id": "outside-last229-92fb97d3dfb5",
+      "path": "audio/outside-last229-92fb97d3dfb5.mp3",
+      "text": "get in. Our train gets in at half past six, so we can meet you outside the station.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-07",
+      "id": "outside-unrecognised-07",
+      "path": "audio/outside-unrecognised-07.mp3",
+      "text": "made of. made from. made with. The table is made of wood; the paper is made from wood; the soup is made with fresh vegetables.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-08",
+      "id": "outside-unrecognised-08",
+      "path": "audio/outside-unrecognised-08.mp3",
+      "text": "do preparation. make preparations. I've done some preparation for the interview, and the team is making the final preparations for the event.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "named-final-fun-funny",
+      "id": "named-final-fun-funny",
+      "path": "audio/named-final-fun-funny.mp3",
+      "text": "The game was fun, her story was funny, and then I noticed a funny smell.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "named-final-ing-ed-adjectives",
+      "id": "named-final-ing-ed-adjectives",
+      "path": "audio/named-final-ing-ed-adjectives.mp3",
+      "text": "The news was shocking, and everyone who heard it was shocked.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "root-f4aaa05b79d2",
+      "id": "root-f4aaa05b79d2",
+      "path": "audio/root-f4aaa05b79d2.mp3",
+      "text": "stingy. He's not short of money, but he's stingy about small expenses.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "root-0218724a9e6b",
+      "id": "root-0218724a9e6b",
+      "path": "audio/root-0218724a9e6b.mp3",
+      "text": "smug. He looked smug after predicting the result correctly.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "root-ae7e42848ceb",
+      "id": "root-ae7e42848ceb",
+      "path": "audio/root-ae7e42848ceb.mp3",
+      "text": "respectful. respected. She was respectful towards the well-respected teacher.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "root-3e7ddbba0f4c",
+      "id": "root-3e7ddbba0f4c",
+      "path": "audio/root-3e7ddbba0f4c.mp3",
+      "text": "frail. brittle. The chair looked sturdy, but the old plastic had become brittle.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-additional-34",
+      "id": "outside-additional-34",
+      "path": "audio/outside-additional-34.mp3",
+      "text": "distrustful of. He's distrustful of promises that sound too good to be true.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-1765b7e962bb",
+      "id": "outside-last229-1765b7e962bb",
+      "path": "audio/outside-last229-1765b7e962bb.mp3",
+      "text": "assertive. She was assertive about the deadline without raising her voice.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-30ea5b6bd999",
+      "id": "outside-last229-30ea5b6bd999",
+      "path": "audio/outside-last229-30ea5b6bd999.mp3",
+      "text": "discreet. Please be discreet about the surprise party and don't mention it to Alex.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-4856b647e0e6",
+      "id": "outside-last229-4856b647e0e6",
+      "path": "audio/outside-last229-4856b647e0e6.mp3",
+      "text": "tactful. He found a tactful way to tell us the plan would not work.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-d4421d87e27f",
+      "id": "outside-last229-d4421d87e27f",
+      "path": "audio/outside-last229-d4421d87e27f.mp3",
+      "text": "withdrawn. At first, our new neighbour seemed withdrawn and rarely joined our conversations.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-6fdabaade051",
+      "id": "outside-last229-6fdabaade051",
+      "path": "audio/outside-last229-6fdabaade051.mp3",
+      "text": "gullible. He was gullible enough to believe the obviously fake prize email.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-b80098cb1d47",
+      "id": "outside-last229-b80098cb1d47",
+      "path": "audio/outside-last229-b80098cb1d47.mp3",
+      "text": "reckless. It was reckless to drive so fast on the icy road.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-last229-fd13c4f0ac40",
+      "id": "outside-last229-fd13c4f0ac40",
+      "path": "audio/outside-last229-fd13c4f0ac40.mp3",
+      "text": "impartial. We asked an impartial reviewer to compare the two proposals.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-first229-word-33e3c5e96511",
+      "id": "outside-first229-word-33e3c5e96511",
+      "path": "audio/outside-first229-word-33e3c5e96511.mp3",
+      "text": "shrewd. She made a shrewd decision to rent the equipment before buying it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-first229-word-b3f2afd836fd",
+      "id": "outside-first229-word-b3f2afd836fd",
+      "path": "audio/outside-first229-word-b3f2afd836fd.mp3",
+      "text": "reserved. He is rather reserved at first, but he becomes talkative when he feels comfortable.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "outside-first229-word-ceb089d4643c",
+      "id": "outside-first229-word-ceb089d4643c",
+      "path": "audio/outside-first229-word-ceb089d4643c.mp3",
+      "text": "witty. Her witty reply made everyone at the table laugh.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-character"
+      ]
+    },
+    {
+      "key": "root-ab5894295876",
+      "id": "root-ab5894295876",
+      "path": "audio/root-ab5894295876.mp3",
+      "text": "sturdy. We need a sturdy table that won't wobble.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "root-259aac6cbad3",
+      "id": "root-259aac6cbad3",
+      "path": "audio/root-259aac6cbad3.mp3",
+      "text": "stuffy. The room feels stuffy. Could we open a window?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "outside-additional-28",
+      "id": "outside-additional-28",
+      "path": "audio/outside-additional-28.mp3",
+      "text": "dissatisfied. Several customers were dissatisfied with the service.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "outside-additional-32",
+      "id": "outside-additional-32",
+      "path": "audio/outside-additional-32.mp3",
+      "text": "carefree. We spent a carefree afternoon by the lake.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "outside-additional-33",
+      "id": "outside-additional-33",
+      "path": "audio/outside-additional-33.mp3",
+      "text": "grim. The financial outlook is grim.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "outside-last229-303ebd73d5af",
+      "id": "outside-last229-303ebd73d5af",
+      "path": "audio/outside-last229-303ebd73d5af.mp3",
+      "text": "stale. The bread had gone stale, so we used it to make breadcrumbs.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "outside-first229-word-9dcff6ec1f3b",
+      "id": "outside-first229-word-9dcff6ec1f3b",
+      "path": "audio/outside-first229-word-9dcff6ec1f3b.mp3",
+      "text": "scarce. Affordable flats are scarce in the city centre.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-descriptions"
+      ]
+    },
+    {
+      "key": "root-d40a8b81c9e6",
+      "id": "root-d40a8b81c9e6",
+      "path": "audio/root-d40a8b81c9e6.mp3",
+      "text": "deliberately. I deliberately left the last page blank for notes.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clear-style"
+      ]
+    },
+    {
+      "key": "root-8b9eedae421e",
+      "id": "root-8b9eedae421e",
+      "path": "audio/root-8b9eedae421e.mp3",
+      "text": "relatively. The first task was relatively easy compared with the second.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clear-style"
+      ]
+    },
+    {
+      "key": "root-a0a0b842e1ef",
+      "id": "root-a0a0b842e1ef",
+      "path": "audio/root-a0a0b842e1ef.mp3",
+      "text": "convey a message. A short example can convey the message more clearly.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clear-style"
+      ]
+    },
+    {
+      "key": "root-64d6f348edd9",
+      "id": "root-64d6f348edd9",
+      "path": "audio/root-64d6f348edd9.mp3",
+      "text": "mumble. He mumbled the name, so I asked him to repeat it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clear-style"
+      ]
+    },
+    {
+      "key": "outside-last229-7f138b5ce840",
+      "id": "outside-last229-7f138b5ce840",
+      "path": "audio/outside-last229-7f138b5ce840.mp3",
+      "text": "candid. She gave me a candid assessment of my presentation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clear-style"
+      ]
+    },
+    {
+      "key": "root-cc0146190433",
+      "id": "root-cc0146190433",
+      "path": "audio/root-cc0146190433.mp3",
+      "text": "one and two thirds. The recipe needs one and two thirds cups of flour.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-numbers"
+      ]
+    },
+    {
+      "key": "root-cd3fdb4390d7",
+      "id": "root-cd3fdb4390d7",
+      "path": "audio/root-cd3fdb4390d7.mp3",
+      "text": "ten metres by twelve metres. The room measures ten metres by twelve metres.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-numbers"
+      ]
+    },
+    {
+      "key": "root-09631b1eb6cc",
+      "id": "root-09631b1eb6cc",
+      "path": "audio/root-09631b1eb6cc.mp3",
+      "text": "thirty-two degrees Celsius. It was thirty-two degrees Celsius in the afternoon.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-numbers"
+      ]
+    },
+    {
+      "key": "root-d0372dd415b5",
+      "id": "root-d0372dd415b5",
+      "path": "audio/root-d0372dd415b5.mp3",
+      "text": "make waves. Her new proposal made waves across the organisation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-impact"
+      ]
+    },
+    {
+      "key": "root-5a74e4c4e176",
+      "id": "root-5a74e4c4e176",
+      "path": "audio/root-5a74e4c4e176.mp3",
+      "text": "rock the boat. He raised the issue even though he knew it might rock the boat.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-impact"
+      ]
+    },
+    {
+      "key": "root-2f3fb6aa9997",
+      "id": "root-2f3fb6aa9997",
+      "path": "audio/root-2f3fb6aa9997.mp3",
+      "text": "sail through something. She sailed through the first interview.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-impact"
+      ]
+    },
+    {
+      "key": "root-dd940d339d52",
+      "id": "root-dd940d339d52",
+      "path": "audio/root-dd940d339d52.mp3",
+      "text": "nail an interview. He prepared carefully and nailed the interview.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-impact"
+      ]
+    },
+    {
+      "key": "root-770cf1f5a613",
+      "id": "root-770cf1f5a613",
+      "path": "audio/root-770cf1f5a613.mp3",
+      "text": "skimp on something. We can simplify the design, but we shouldn't skimp on testing.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-impact"
+      ]
+    },
+    {
+      "key": "root-3de6fcd1d5de",
+      "id": "root-3de6fcd1d5de",
+      "path": "audio/root-3de6fcd1d5de.mp3",
+      "text": "be out to do something. The team is out to prove that the idea can work.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-pressure"
+      ]
+    },
+    {
+      "key": "root-cafe009bb9e1",
+      "id": "root-cafe009bb9e1",
+      "path": "audio/root-cafe009bb9e1.mp3",
+      "text": "have your back against the wall. With the deadline tomorrow, we had our backs against the wall.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-pressure"
+      ]
+    },
+    {
+      "key": "root-c559b5461e13",
+      "id": "root-c559b5461e13",
+      "path": "audio/root-c559b5461e13.mp3",
+      "text": "dodge a bullet. We dodged a bullet by checking the booking before we left.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-pressure"
+      ]
+    },
+    {
+      "key": "root-5c3dd4875d38",
+      "id": "root-5c3dd4875d38",
+      "path": "audio/root-5c3dd4875d38.mp3",
+      "text": "pore over something. She pored over the instructions before assembling the desk.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-pressure"
+      ]
+    },
+    {
+      "key": "root-4a74c31d0798",
+      "id": "root-4a74c31d0798",
+      "path": "audio/root-4a74c31d0798.mp3",
+      "text": "stick to your guns. He listened to the objections but stuck to his guns.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-pressure"
+      ]
+    },
+    {
+      "key": "outside-last229-f03aef39a617",
+      "id": "outside-last229-f03aef39a617",
+      "path": "audio/outside-last229-f03aef39a617.mp3",
+      "text": "deter. High delivery costs deterred us from ordering online.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-pressure"
+      ]
+    },
+    {
+      "key": "root-62061401ea0f",
+      "id": "root-62061401ea0f",
+      "path": "audio/root-62061401ea0f.mp3",
+      "text": "start over. The draft was confusing, so I decided to start over.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-3c84613bd987",
+      "id": "root-3c84613bd987",
+      "path": "audio/root-3c84613bd987.mp3",
+      "text": "start out. She started out as an assistant and later led the team.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-fd54675beef1",
+      "id": "root-fd54675beef1",
+      "path": "audio/root-fd54675beef1.mp3",
+      "text": "start on something. I'll start on the report after lunch.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-2b3b8aacb332",
+      "id": "root-2b3b8aacb332",
+      "path": "audio/root-2b3b8aacb332.mp3",
+      "text": "start up. They started up a small repair business last year.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-9d2110a7ff96",
+      "id": "root-9d2110a7ff96",
+      "path": "audio/root-9d2110a7ff96.mp3",
+      "text": "to start with. To start with, let's agree on a date.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-9e48d7232d98",
+      "id": "root-9e48d7232d98",
+      "path": "audio/root-9e48d7232d98.mp3",
+      "text": "go under. The shop nearly went under during the long closure.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-960b1cb7c1f9",
+      "id": "root-960b1cb7c1f9",
+      "path": "audio/root-960b1cb7c1f9.mp3",
+      "text": "go by. The weeks went by, but we still hadn't heard back.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "root-23520ec2301e",
+      "id": "root-23520ec2301e",
+      "path": "audio/root-23520ec2301e.mp3",
+      "text": "the gist of something. I missed a few words, but I got the gist of the message.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "root-ebde18ad6dce",
+      "id": "root-ebde18ad6dce",
+      "path": "audio/root-ebde18ad6dce.mp3",
+      "text": "with the naked eye. The small mark is hard to see with the naked eye.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "root-b5b5777a22c1",
+      "id": "root-b5b5777a22c1",
+      "path": "audio/root-b5b5777a22c1.mp3",
+      "text": "at sea. by sea. by the sea. They travelled by sea and stayed in a village by the sea.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "root-1ae7e3a4902e",
+      "id": "root-1ae7e3a4902e",
+      "path": "audio/root-1ae7e3a4902e.mp3",
+      "text": "I think so. Will the shop be open? I think so.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "root-413fd56cc28c",
+      "id": "root-413fd56cc28c",
+      "path": "audio/root-413fd56cc28c.mp3",
+      "text": "I'm done.. I'm done with this. I'm done with the report, so I can help you now.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "outside-additional-24",
+      "id": "outside-additional-24",
+      "path": "audio/outside-additional-24.mp3",
+      "text": "back in the day. Back in the day, we used paper maps on every trip.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "root-tail-69e2d9a440e8",
+      "id": "root-tail-69e2d9a440e8",
+      "path": "audio/root-tail-69e2d9a440e8.mp3",
+      "text": "ring a bell. Her name rings a bell, but I can't remember where we met.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "outside-first229-78914e38a3d4",
+      "id": "outside-first229-78914e38a3d4",
+      "path": "audio/outside-first229-78914e38a3d4.mp3",
+      "text": "dawn on someone. It finally dawned on me that I had been using the wrong file.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-clarity"
+      ]
+    },
+    {
+      "key": "root-f9a26c86d063",
+      "id": "root-f9a26c86d063",
+      "path": "audio/root-f9a26c86d063.mp3",
+      "text": "colon. semicolon. Use a colon before the list and a semicolon between the two clauses.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-writing-symbols"
+      ]
+    },
+    {
+      "key": "root-6bbb8ffc83bd",
+      "id": "root-6bbb8ffc83bd",
+      "path": "audio/root-6bbb8ffc83bd.mp3",
+      "text": "quotation marks. Put the title in quotation marks.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-writing-symbols"
+      ]
+    },
+    {
+      "key": "root-08bbe33211c9",
+      "id": "root-08bbe33211c9",
+      "path": "audio/root-08bbe33211c9.mp3",
+      "text": "comma. full stop. Add a comma after the opening phrase and a full stop at the end.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-writing-symbols"
+      ]
+    },
+    {
+      "key": "root-6ade2a32b86d",
+      "id": "root-6ade2a32b86d",
+      "path": "audio/root-6ade2a32b86d.mp3",
+      "text": "equals. Two plus three equals five.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-writing-symbols"
+      ]
+    },
+    {
+      "key": "outside-additional-41",
+      "id": "outside-additional-41",
+      "path": "audio/outside-additional-41.mp3",
+      "text": "Commas in a list. Please bring a notebook, a pen and your ID.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-punctuation"
+      ]
+    },
+    {
+      "key": "outside-additional-42",
+      "id": "outside-additional-42",
+      "path": "audio/outside-additional-42.mp3",
+      "text": "Comma with direct address. Thanks, Alex. Could you send the file today?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-punctuation"
+      ]
+    },
+    {
+      "key": "outside-additional-43",
+      "id": "outside-additional-43",
+      "path": "audio/outside-additional-43.mp3",
+      "text": "Joining two full clauses with a comma and but. I can join on Tuesday, but I am unavailable on Friday.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-punctuation"
+      ]
+    },
+    {
+      "key": "outside-additional-44",
+      "id": "outside-additional-44",
+      "path": "audio/outside-additional-44.mp3",
+      "text": "Joining two full clauses with a semicolon. I can join on Tuesday; Friday is difficult.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-punctuation"
+      ]
+    },
+    {
+      "key": "outside-additional-45",
+      "id": "outside-additional-45",
+      "path": "audio/outside-additional-45.mp3",
+      "text": "Comma after introductory Well. Well, I'll check and get back to you.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-punctuation"
+      ]
+    },
+    {
+      "key": "outside-additional-46",
+      "id": "outside-additional-46",
+      "path": "audio/outside-additional-46.mp3",
+      "text": "Comma before a question tag. You received the attachment, didn't you?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-punctuation"
+      ]
+    },
+    {
+      "key": "outside-additional-47",
+      "id": "outside-additional-47",
+      "path": "audio/outside-additional-47.mp3",
+      "text": "dice vegetables. Dice the onion and add it to the pan.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "outside-additional-48",
+      "id": "outside-additional-48",
+      "path": "audio/outside-additional-48.mp3",
+      "text": "roll out dough. Roll out the dough with a rolling pin.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "outside-additional-49",
+      "id": "outside-additional-49",
+      "path": "audio/outside-additional-49.mp3",
+      "text": "whisk. Whisk the eggs and milk together in a bowl.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "outside-additional-50",
+      "id": "outside-additional-50",
+      "path": "audio/outside-additional-50.mp3",
+      "text": "knead. Knead the dough until it feels smooth.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "outside-additional-51",
+      "id": "outside-additional-51",
+      "path": "audio/outside-additional-51.mp3",
+      "text": "grate. Grate some cheese over the pasta.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "outside-additional-52",
+      "id": "outside-additional-52",
+      "path": "audio/outside-additional-52.mp3",
+      "text": "blend. Blend the fruit and yoghurt until smooth.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-02",
+      "id": "outside-unrecognised-02",
+      "path": "audio/outside-unrecognised-02.mp3",
+      "text": "a picky eater. My nephew is a picky eater, but he loves homemade soup.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-cooking"
+      ]
+    },
+    {
+      "key": "root-tail-7cfd5819d0c8",
+      "id": "root-tail-7cfd5819d0c8",
+      "path": "audio/root-tail-7cfd5819d0c8.mp3",
+      "text": "a win-win situation. Working from home twice a week could be a win-win situation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-187d20c247d8",
+      "id": "root-tail-187d20c247d8",
+      "path": "audio/root-tail-187d20c247d8.mp3",
+      "text": "pave the way for. The pilot study paved the way for a larger project.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-c8d0a1081fe2",
+      "id": "root-tail-c8d0a1081fe2",
+      "path": "audio/root-tail-c8d0a1081fe2.mp3",
+      "text": "conclusive evidence. The report provides no conclusive evidence of a link.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-f0d926cec8ce",
+      "id": "root-tail-f0d926cec8ce",
+      "path": "audio/root-tail-f0d926cec8ce.mp3",
+      "text": "come around to a view. She eventually came around to our way of thinking.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-599a529de1df",
+      "id": "root-tail-599a529de1df",
+      "path": "audio/root-tail-599a529de1df.mp3",
+      "text": "be looking to do something. We're looking to move to a smaller office next year.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-0410d502f442",
+      "id": "root-tail-0410d502f442",
+      "path": "audio/root-tail-0410d502f442.mp3",
+      "text": "have every intention of doing something. I have every intention of finishing the course.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-500f1aa2b9a2",
+      "id": "root-tail-500f1aa2b9a2",
+      "path": "audio/root-tail-500f1aa2b9a2.mp3",
+      "text": "stand for a principle. Our organisation stands for equal access to education.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "outside-first229-796aa09e7353",
+      "id": "outside-first229-796aa09e7353",
+      "path": "audio/outside-first229-796aa09e7353.mp3",
+      "text": "drag on. The discussion dragged on until everyone was tired.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "outside-first229-9cc9477f0c86",
+      "id": "outside-first229-9cc9477f0c86",
+      "path": "audio/outside-first229-9cc9477f0c86.mp3",
+      "text": "fall through. Our plan to rent a larger office fell through.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "outside-first229-210939697f70",
+      "id": "outside-first229-210939697f70",
+      "path": "audio/outside-first229-210939697f70.mp3",
+      "text": "settle on something. After comparing three designs, we settled on the simplest one.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "outside-first229-gap-lay-off",
+      "id": "outside-first229-gap-lay-off",
+      "path": "audio/outside-first229-gap-lay-off.mp3",
+      "text": "lay someone off. The company laid off several workers after closing one of its offices.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-work-decisions"
+      ]
+    },
+    {
+      "key": "root-tail-9414de3085d2",
+      "id": "root-tail-9414de3085d2",
+      "path": "audio/root-tail-9414de3085d2.mp3",
+      "text": "Present Continuous with always for irritation. You're always leaving the window open!",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-continuous"
+      ]
+    },
+    {
+      "key": "root-tail-5cf4ac87543e",
+      "id": "root-tail-5cf4ac87543e",
+      "path": "audio/root-tail-5cf4ac87543e.mp3",
+      "text": "Present Continuous for gradual change. My confidence is growing as I practise.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-continuous"
+      ]
+    },
+    {
+      "key": "root-tail-7385d80ffe23",
+      "id": "root-tail-7385d80ffe23",
+      "path": "audio/root-tail-7385d80ffe23.mp3",
+      "text": "turn off a road. Turn off the main road just after the bridge.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-travel"
+      ]
+    },
+    {
+      "key": "outside-first229-92cb772d9e51",
+      "id": "outside-first229-92cb772d9e51",
+      "path": "audio/outside-first229-92cb772d9e51.mp3",
+      "text": "head for. We headed for the station as soon as the rain stopped.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-travel"
+      ]
+    },
+    {
+      "key": "outside-first229-dbdd9df2a915",
+      "id": "outside-first229-dbdd9df2a915",
+      "path": "audio/outside-first229-dbdd9df2a915.mp3",
+      "text": "buckle up. Please buckle up before we leave the car park.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-travel"
+      ]
+    },
+    {
+      "key": "outside-first229-word-6ac62de67c78",
+      "id": "outside-first229-word-6ac62de67c78",
+      "path": "audio/outside-first229-word-6ac62de67c78.mp3",
+      "text": "sharp. Please arrive at nine sharp; the workshop starts straight away.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-travel"
+      ]
+    },
+    {
+      "key": "named-final-1b-064",
+      "id": "named-final-1b-064",
+      "path": "audio/named-final-1b-064.mp3",
+      "text": "be running late. I am running late, but I should be there in ten minutes.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-travel"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-01",
+      "id": "outside-unrecognised-01",
+      "path": "audio/outside-unrecognised-01.mp3",
+      "text": "brain fog. I had brain fog after the long flight and kept forgetting simple things.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-health-language"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-03",
+      "id": "outside-unrecognised-03",
+      "path": "audio/outside-unrecognised-03.mp3",
+      "text": "bedridden. Her grandfather was bedridden for several weeks after the accident.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-health-language"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-04",
+      "id": "outside-unrecognised-04",
+      "path": "audio/outside-unrecognised-04.mp3",
+      "text": "mindfulness. The article explains mindfulness in simple everyday language.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-health-language"
+      ]
+    },
+    {
+      "key": "outside-unrecognised-05",
+      "id": "outside-unrecognised-05",
+      "path": "audio/outside-unrecognised-05.mp3",
+      "text": "health-conscious. She's health-conscious and reads food labels carefully.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-health-language"
+      ]
+    },
+    {
+      "key": "info-card-1",
+      "id": "info-card-1",
+      "path": "audio/info-card-1.mp3",
+      "text": "I am writing to let you know that the meeting will be online. I am writing to let you know that the room has changed.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-info"
+      ]
+    },
+    {
+      "key": "info-card-2",
+      "id": "info-card-2",
+      "path": "audio/info-card-2.mp3",
+      "text": "First, I would like to confirm the date. First, I would like to confirm the number of guests.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-info"
+      ]
+    },
+    {
+      "key": "info-card-3",
+      "id": "info-card-3",
+      "path": "audio/info-card-3.mp3",
+      "text": "We can provide you with information about the course. The organiser can provide us with information about accommodation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-info"
+      ]
+    },
+    {
+      "key": "info-card-4",
+      "id": "info-card-4",
+      "path": "audio/info-card-4.mp3",
+      "text": "You may also find the attached timetable useful. You may also find the recording useful.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-info"
+      ]
+    },
+    {
+      "key": "info-card-5",
+      "id": "info-card-5",
+      "path": "audio/info-card-5.mp3",
+      "text": "Please let me know if you need any further details. Please let me know if you need a different format.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-info"
+      ]
+    },
+    {
+      "key": "info-listening-1",
+      "id": "info-listening-1",
+      "path": "audio/info-listening-1.mp3",
+      "text": "Dear Alex, I am writing to let you know that our workshop will now take place online. First, I would like to confirm that the starting time is still ten o'clock. You may also find the attached timetable useful. Please let me know if you need any further details. Kind regards, Sam.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-info"
+      ]
+    },
+    {
+      "key": "enquiry-card-1",
+      "id": "enquiry-card-1",
+      "path": "audio/enquiry-card-1.mp3",
+      "text": "I am writing to enquire about your beginners' course. I am writing to enquire about your weekend workshops.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-enquiry"
+      ]
+    },
+    {
+      "key": "enquiry-card-2",
+      "id": "enquiry-card-2",
+      "path": "audio/enquiry-card-2.mp3",
+      "text": "Could you tell me when the course ends? Could you tell me where the group meets?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-enquiry"
+      ]
+    },
+    {
+      "key": "enquiry-card-3",
+      "id": "enquiry-card-3",
+      "path": "audio/enquiry-card-3.mp3",
+      "text": "I would also like to know whether a recording is available. I would also like to know whether lunch is included.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-enquiry"
+      ]
+    },
+    {
+      "key": "enquiry-card-4",
+      "id": "enquiry-card-4",
+      "path": "audio/enquiry-card-4.mp3",
+      "text": "Would you mind telling me how much it costs? Would you mind telling me how long the tour lasts?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-enquiry"
+      ]
+    },
+    {
+      "key": "enquiry-card-5",
+      "id": "enquiry-card-5",
+      "path": "audio/enquiry-card-5.mp3",
+      "text": "Thank you for your help with my enquiry. Thank you for your help with the registration.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-enquiry"
+      ]
+    },
+    {
+      "key": "enquiry-listening-1",
+      "id": "enquiry-listening-1",
+      "path": "audio/enquiry-listening-1.mp3",
+      "text": "Dear Course Team, I am writing to enquire about your evening photography course. Could you tell me when the next course starts? I would also like to know whether students need their own cameras. Would you mind telling me how much the course costs? Thank you for your help with my enquiry. Kind regards, Jamie.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-enquiry"
+      ]
+    },
+    {
+      "key": "suggestions-card-1",
+      "id": "suggestions-card-1",
+      "path": "audio/suggestions-card-1.mp3",
+      "text": "I am writing to arrange a short call. I am writing to arrange a visit to your office.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-suggestions"
+      ]
+    },
+    {
+      "key": "suggestions-card-2",
+      "id": "suggestions-card-2",
+      "path": "audio/suggestions-card-2.mp3",
+      "text": "I suggest starting with a short discussion. I suggest sending the agenda in advance.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-suggestions"
+      ]
+    },
+    {
+      "key": "suggestions-card-3",
+      "id": "suggestions-card-3",
+      "path": "audio/suggestions-card-3.mp3",
+      "text": "Another possibility is to meet after lunch. Another possibility is to discuss it by email.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-suggestions"
+      ]
+    },
+    {
+      "key": "suggestions-card-4",
+      "id": "suggestions-card-4",
+      "path": "audio/suggestions-card-4.mp3",
+      "text": "We could either have a call or meet in person. We could either book a room or meet online.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-suggestions"
+      ]
+    },
+    {
+      "key": "suggestions-card-5",
+      "id": "suggestions-card-5",
+      "path": "audio/suggestions-card-5.mp3",
+      "text": "Which option would work better for you? Would Monday or Wednesday work better for you?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-suggestions"
+      ]
+    },
+    {
+      "key": "suggestions-listening-1",
+      "id": "suggestions-listening-1",
+      "path": "audio/suggestions-listening-1.mp3",
+      "text": "Dear Morgan, I am writing to arrange our next book club meeting. I suggest meeting at the library on Tuesday evening. Another possibility is to meet online on Thursday. We could either discuss the whole book or focus on the final chapter. Which option would work better for you? Kind regards, Alex.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-suggestions"
+      ]
+    },
+    {
+      "key": "permission-card-1",
+      "id": "permission-card-1",
+      "path": "audio/permission-card-1.mp3",
+      "text": "I am writing to request permission to use your photograph. I am writing to request permission to record the talk.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-permission"
+      ]
+    },
+    {
+      "key": "permission-card-2",
+      "id": "permission-card-2",
+      "path": "audio/permission-card-2.mp3",
+      "text": "We need permission for the event. We need permission for the exhibition.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-permission"
+      ]
+    },
+    {
+      "key": "permission-card-3",
+      "id": "permission-card-3",
+      "path": "audio/permission-card-3.mp3",
+      "text": "Would you mind if I shared this recording with my colleague? Would you mind if I quoted this paragraph in my presentation?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-permission"
+      ]
+    },
+    {
+      "key": "permission-card-4",
+      "id": "permission-card-4",
+      "path": "audio/permission-card-4.mp3",
+      "text": "Would it also be possible for me to invite a colleague? Would it also be possible for me to stay until five?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-permission"
+      ]
+    },
+    {
+      "key": "permission-card-5",
+      "id": "permission-card-5",
+      "path": "audio/permission-card-5.mp3",
+      "text": "Thank you for considering my request. Thank you for considering these arrangements.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-permission"
+      ]
+    },
+    {
+      "key": "permission-listening-1",
+      "id": "permission-listening-1",
+      "path": "audio/permission-listening-1.mp3",
+      "text": "Dear Ms Reed, I am writing to request permission to use the seminar room for a book club meeting. Would you mind if I invited two colleagues? Would it also be possible for me to arrive ten minutes early to arrange the chairs? Thank you for considering my request. Kind regards, Chris.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-permission"
+      ]
+    },
+    {
+      "key": "complaint-card-1",
+      "id": "complaint-card-1",
+      "path": "audio/complaint-card-1.mp3",
+      "text": "I am writing to complain about the book I received yesterday. I am writing to complain about the service at your hotel.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-complaint"
+      ]
+    },
+    {
+      "key": "complaint-card-2",
+      "id": "complaint-card-2",
+      "path": "audio/complaint-card-2.mp3",
+      "text": "The first problem is that the cover is damaged. The first problem is that the screen does not turn on.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-complaint"
+      ]
+    },
+    {
+      "key": "complaint-card-3",
+      "id": "complaint-card-3",
+      "path": "audio/complaint-card-3.mp3",
+      "text": "In addition, several pages are missing. In addition, the instructions are missing.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-complaint"
+      ]
+    },
+    {
+      "key": "complaint-card-4",
+      "id": "complaint-card-4",
+      "path": "audio/complaint-card-4.mp3",
+      "text": "I would be grateful if you could issue a full refund. I would be grateful if you could send me a replacement.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-complaint"
+      ]
+    },
+    {
+      "key": "complaint-card-5",
+      "id": "complaint-card-5",
+      "path": "audio/complaint-card-5.mp3",
+      "text": "I look forward to hearing from you. I look forward to receiving your explanation.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-complaint"
+      ]
+    },
+    {
+      "key": "complaint-listening-1",
+      "id": "complaint-listening-1",
+      "path": "audio/complaint-listening-1.mp3",
+      "text": "Dear Customer Service Team, I am writing to complain about the book I received yesterday. The cover is damaged. In addition, several pages are missing. I have attached two photographs of the problem. I would be grateful if you could send me a replacement. I look forward to hearing from you. Kind regards, Taylor.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-complaint"
+      ]
+    },
+    {
+      "key": "opening-card-1",
+      "id": "opening-card-1",
+      "path": "audio/opening-card-1.mp3",
+      "text": "I am writing in response to your advertisement for volunteers. I am writing in response to your email about the programme.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-opening"
+      ]
+    },
+    {
+      "key": "opening-card-2",
+      "id": "opening-card-2",
+      "path": "audio/opening-card-2.mp3",
+      "text": "I am writing regarding my application. I am writing with regard to my application.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-opening"
+      ]
+    },
+    {
+      "key": "opening-card-3",
+      "id": "opening-card-3",
+      "path": "audio/opening-card-3.mp3",
+      "text": "Dear Ms Brown. Yours sincerely, Alex. Dear Mr Green. Yours sincerely, Sam.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-opening"
+      ]
+    },
+    {
+      "key": "opening-card-4",
+      "id": "opening-card-4",
+      "path": "audio/opening-card-4.mp3",
+      "text": "Dear Sir or Madam. Yours faithfully, Alex. Dear Sir or Madam. Yours faithfully, Sam.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-opening"
+      ]
+    },
+    {
+      "key": "opening-card-5",
+      "id": "opening-card-5",
+      "path": "audio/opening-card-5.mp3",
+      "text": "Dear Course Team. Kind regards, Alex. Dear Library Team. Kind regards, Sam.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-opening"
+      ]
+    },
+    {
+      "key": "opening-listening-1",
+      "id": "opening-listening-1",
+      "path": "audio/opening-listening-1.mp3",
+      "text": "Dear Ms Brown, I am writing in response to your advertisement for volunteers at the reading festival. I am interested in helping with the evening events. Could you tell me whether any places are still available? I would be happy to provide further information about my experience. I look forward to your reply. Yours sincerely, Alex.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "src-opening"
+      ]
+    },
+    {
+      "key": "final-pending-balanced-argument",
+      "id": "final-pending-balanced-argument",
+      "path": "audio/final-pending-balanced-argument.mp3",
+      "text": "I see your point, but the cheaper course takes much longer. As far as I can see, the plan is realistic. On the one hand, it saves money; on the other hand, it needs more time.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-explain"
+      ]
+    },
+    {
+      "key": "final-pending-take-message",
+      "id": "final-pending-take-message",
+      "path": "audio/final-pending-take-message.mp3",
+      "text": "take a message. Nina is in a meeting. Can I take a message for her?",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-messages"
+      ]
+    },
+    {
+      "key": "final-pending-not-all-none",
+      "id": "final-pending-not-all-none",
+      "path": "audio/final-pending-not-all-none.mp3",
+      "text": "Not all the guests came, but none of them forgot to call.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "final-pending-quantifiers-of",
+      "id": "final-pending-quantifiers-of",
+      "path": "audio/final-pending-quantifiers-of.mp3",
+      "text": "Most students work hard, and some of the students in this class study every evening.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "final-pending-negative-prefixes",
+      "id": "final-pending-negative-prefixes",
+      "path": "audio/final-pending-negative-prefixes.mp3",
+      "text": "The instructions were incomplete, and the timetable was irregular.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "final-pending-money-prices",
+      "id": "final-pending-money-prices",
+      "path": "audio/final-pending-money-prices.mp3",
+      "text": "The notebook is twelve dollars fifty, and the pen is two dollars.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-numbers"
+      ]
+    },
+    {
+      "key": "final-pending-set-in-stone",
+      "id": "final-pending-set-in-stone",
+      "path": "audio/final-pending-set-in-stone.mp3",
+      "text": "set in stone. The dates are not set in stone, so we can move the meeting.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "final-pending-responsible-to",
+      "id": "final-pending-responsible-to",
+      "path": "audio/final-pending-responsible-to.mp3",
+      "text": "The coordinator is responsible to the manager and responsible for the weekly schedule.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-album-meetings"
+      ]
+    },
+    {
+      "key": "final-pending-quantity-agreement",
+      "id": "final-pending-quantity-agreement",
+      "path": "audio/final-pending-quantity-agreement.mp3",
+      "text": "This pair of gloves is new, and twenty pounds is a fair price.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-numbers"
+      ]
+    },
+    {
+      "key": "final-pending-dates",
+      "id": "final-pending-dates",
+      "path": "audio/final-pending-dates.mp3",
+      "text": "Please write 4 May 2027 so that nobody confuses the day and month.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-numbers"
+      ]
+    },
+    {
+      "key": "final-pending-if-will",
+      "id": "final-pending-if-will",
+      "path": "audio/final-pending-if-will.mp3",
+      "text": "If you will wait by the desk, I’ll find someone to help you.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "final-pending-possessives",
+      "id": "final-pending-possessives",
+      "path": "audio/final-pending-possessives.mp3",
+      "text": "Mia and Leo’s office is upstairs; Mia’s and Leo’s desks are beside the window.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    },
+    {
+      "key": "final-pending-beginning-end",
+      "id": "final-pending-beginning-end",
+      "path": "audio/final-pending-beginning-end.mp3",
+      "text": "At the beginning of the course I was nervous. In the end, I enjoyed it.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-starting"
+      ]
+    },
+    {
+      "key": "final-pending-miss-out",
+      "id": "final-pending-miss-out",
+      "path": "audio/final-pending-miss-out.mp3",
+      "text": "I missed your name out of the list, but I don’t want you to miss out on the trip.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-15%",
+      "sourceIds": [
+        "curated-outside-problems-and-solutions"
+      ]
+    },
+    {
+      "key": "final-pending-fit-in",
+      "id": "final-pending-fit-in",
+      "path": "audio/final-pending-fit-in.mp3",
+      "text": "She soon fitted in with the team. The manager can fit her in at three.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-outside-work-and-information"
+      ]
+    },
+    {
+      "key": "final-pending-gerund-subject",
+      "id": "final-pending-gerund-subject",
+      "path": "audio/final-pending-gerund-subject.mp3",
+      "text": "Reading the instructions carefully prevents mistakes.",
+      "voice": "en-GB-RyanNeural",
+      "rate": "-5%",
+      "sourceIds": [
+        "curated-root-contrasts"
+      ]
+    }
+  ]
+}

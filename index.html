@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#1a1b1d">
+  <meta name="description" content="Личный английский B1–B2: короткие уроки, спокойное повторение и аудио Ryan.">
+  <title>English · Photo Notes</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%231a1b1d'/%3E%3Cpath d='M20 17h25v7H28v7h14v7H28v9h17v7H20z' fill='%23de7b25'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=d15364155a">
+  <script defer src="data.js?v=384b42bb4b"></script>
+  <script defer src="audio-ready.js?v=972f3e7f64"></script>
+  <script defer src="core.js?v=ce1bb43711"></script>
+  <script defer src="app.js?v=c37f4029c9"></script>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="English Notes">
+  <link rel="stylesheet" href="pwa.css">
+  <script defer src="pwa.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">К материалу</a>
+  <div class="shell">
+    <header class="masthead">
+      <a class="brand" href="#topics" aria-label="English Photo Notes — темы"><span class="brand-mark" aria-hidden="true">e.</span><span>English<span class="brand-sub">PHOTO NOTES</span></span></a>
+      <span class="level-pill">B1–B2 <span>·</span> Личный сборник</span>
+    </header>
+    <nav class="main-nav" aria-label="Разделы">
+      <button type="button" data-view="topics">Темы</button>
+      <button type="button" data-view="review">Повторение <span id="due-badge" class="badge" hidden></span></button>
+      <button type="button" data-view="listening">Слушать</button>
+      <button type="button" data-view="progress">Мой прогресс</button>
+    </nav>
+    <p id="notice" class="notice" role="status" hidden></p>
+    <main id="main" tabindex="-1"></main>
+    <section class="pwa-tools" id="pwa-tools" aria-label="Установка и работа без интернета">
+      <div class="pwa-copy"><p id="pwa-status" role="status" aria-live="polite">Готовим офлайн-копию…</p><small id="pwa-detail"></small><progress id="pwa-progress" class="pwa-progress" hidden aria-label="Загрузка офлайн-копии"></progress></div>
+      <div class="pwa-actions"><button id="pwa-install" type="button" aria-controls="pwa-help" aria-expanded="false">Как установить</button><button id="pwa-update" type="button" hidden>Обновить</button><button id="pwa-retry" type="button" hidden>Повторить загрузку</button></div>
+      <div class="pwa-help" id="pwa-help" hidden><p><strong>iPhone и iPad:</strong> откройте ссылку в Safari → «Поделиться» → «На экран “Домой”».</p><p><strong>Компьютер и Android:</strong> выберите «Установить приложение» в меню браузера или нажмите «Установить», когда появится эта кнопка.</p><p>Перед первым занятием без сети дождитесь сообщения «Готово без интернета».</p></div>
+    </section>
+    <footer class="footer"><span>Понемногу. В своём ритме.</span><span>English · Photo Notes</span></footer>
+  </div>
+  <div id="audio-player" class="audio-player" hidden>
+    <div class="player-inner"><button id="audio-toggle" type="button" aria-label="Пауза">Пауза</button><div class="player-copy"><span id="audio-title">Ryan</span><small id="audio-status">Синтетический голос · British English</small></div><label class="speed-label">Темп<select id="audio-speed" aria-label="Скорость аудио"><option value="0.85">0,85×</option><option value="1" selected>1×</option><option value="1.15">1,15×</option></select></label><button id="audio-close" class="icon-button" type="button" aria-label="Остановить аудио">×</button></div>
+  </div>
+  <audio id="audio" preload="none"></audio>
+  <input id="import-file" type="file" accept="application/json,.json" hidden>
+  <noscript><p class="notice">Для карточек и сохранения повторений включите JavaScript в браузере.</p></noscript>
+</body>
+</html>

@@ -1,0 +1,7 @@
+/* Installation and offline status only; lesson interface remains unchanged. */
+.pwa-tools{border-top:1px solid var(--line);padding:18px 0 24px;display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:.875rem}
+.pwa-copy{flex:1 1 220px;min-width:0}.pwa-copy p{margin:0}.pwa-copy small{display:block;margin-top:4px;color:var(--subtle)}
+.pwa-actions{display:flex;gap:8px;flex-wrap:wrap}.pwa-actions button{font-size:.875rem}.pwa-progress{display:block;width:min(280px,100%);height:5px;margin:9px 0 0;accent-color:var(--accent)}
+.pwa-help{flex-basis:100%;margin:0;padding:14px 16px;border:1px solid var(--line);border-radius:10px;background:var(--panel-soft);color:var(--text)}
+.pwa-help p{margin:0 0 8px}.pwa-help p:last-child{margin-bottom:0}
+@media(max-width:420px){.pwa-tools{gap:12px}.pwa-actions{width:100%}.pwa-actions button{flex:1}}
