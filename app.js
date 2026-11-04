@@ -8,10 +8,14 @@
   }
   const modules = data.modules;
   const allCards = modules.flatMap(m => m.cards.map(c => ({ ...c, moduleId: m.id, moduleTitle: m.title })));
-  const tracksFor = m => (m.listening?.length ? m.listening : m.cards.map(c => ({
-    id: `listen-${c.id}`, title: c.cue, text: c.audioText || `${c.answer} ${c.example}`,
-    translation: [c.translation, c.exampleTranslation].filter(Boolean).join('\n'), note: 'Уловите фразу на слух, затем откройте текст и повторите её в другом контексте.', audioId: c.audioId
-  })));
+  const cardAudioText = c => c.audioText || `${c.answer} ${c.example}`;
+  const normaliseAudio = text => text.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+  const cardDisplayText = c => normaliseAudio(cardAudioText(c)) === normaliseAudio(`${c.answer} ${c.example}`)
+    ? `${c.answer}\n${c.example}` : normaliseAudio(cardAudioText(c)) === normaliseAudio(c.answer) ? c.answer : cardAudioText(c);
+  const tracksFor = m => [...m.cards.map(c => ({
+    id: `listen-${c.id}`, title: c.cue, text: cardAudioText(c), displayText: cardDisplayText(c),
+    translation: [c.translation, cardAudioText(c).includes(c.example) ? c.exampleTranslation : null].filter(Boolean).join('\n'), note: c.note, audioId: c.audioId, cardId: c.id
+  })), ...(m.listening || [])];
   const allTracks = modules.flatMap(m => tracksFor(m).map(t => ({ ...t, moduleId: m.id, moduleTitle: m.title })));
   const readyAudio = new Set(window.PHOTO_ENGLISH_AUDIO?.voice === 'en-GB-RyanNeural' ? window.PHOTO_ENGLISH_AUDIO.ready || [] : []);
   const ids = allCards.map(c => c.id);
@@ -68,7 +72,7 @@
       currentModule = modules.find(m => m.id === parts[1]) || null;
       currentView = currentModule ? 'module' : 'topics';
       currentTab = ['lesson', 'recall', 'listen'].includes(parts[2]) ? parts[2] : 'lesson';
-    } else currentView = ['topics', 'review', 'listening', 'progress'].includes(parts[0]) ? parts[0] : 'topics';
+    } else currentView = parts[0] === 'listening' ? 'training' : ['topics', 'review', 'training', 'progress'].includes(parts[0]) ? parts[0] : 'topics';
   }
   function ensureQueue(key, cards) {
     if (queueKey === key) return;
@@ -84,10 +88,11 @@
     main.replaceChildren();
     if (currentView === 'module') renderModule();
     else if (currentView === 'review') renderReview();
-    else if (currentView === 'listening') renderListening();
+    else if (currentView === 'training') renderTraining();
     else if (currentView === 'progress') renderProgress();
     else renderTopics();
-    document.title = `${currentModule?.title || ({ topics: 'English', review: 'Повторение', listening: 'Слушать', progress: 'Мой прогресс' }[currentView])} · Photo Notes`;
+    updateInlineAudioState();
+    document.title = `${currentModule?.title || ({ topics: 'English', review: 'Повторение', training: 'Тренировка', progress: 'Мой прогресс' }[currentView])} · Photo Notes`;
     if (focus) main.focus({ preventScroll: true });
   }
   function renderTopics() {
@@ -97,7 +102,7 @@
     const hero = el('section', { class: 'hero', 'aria-labelledby': 'hero-title' },
       el('div', { class: 'hero-copy' }, p('ИЗ ВАШИХ ФОТОГРАФИЙ · НОВЫЕ КОНТЕКСТЫ', 'eyebrow'),
         el('h1', { id: 'hero-title' }, data.title), p(data.intro, 'lede'),
-        el('div', { class: 'actions' }, button(due ? `Повторить сейчас · ${due}` : started ? 'Вернуться к карточкам' : 'Открыть первую тему', () => route(due || started ? '#review' : `#topic/${modules[0].id}/lesson`), 'primary'), button(readyAudio.size ? 'Послушать Ryan' : 'Открыть аудиотексты', () => route('#listening'), 'quiet'))),
+        el('div', { class: 'actions' }, button(due ? `Повторить сейчас · ${due}` : started ? 'Вернуться к карточкам' : 'Открыть первую тему', () => route(due || started ? '#review' : `#topic/${modules[0].id}/lesson`), 'primary'), button('Тренироваться на слух', () => route('#training'), 'quiet'))),
       el('div', { class: 'hero-art', 'aria-hidden': 'true' }, p('A NOTE WORTH KEEPING', 'art-label'), p('The right words.\nThe right tone.', 'art-en'), el('span', { class: 'art-rule' }), p('Вспомнить фразу. Услышать её. Сказать по-своему.', 'art-note')));
     main.append(hero, el('div', { class: 'collection-heading' }, el('h2', {}, data.collectionTitle || 'Выберите тему'), p(`${modules.length} ${plural(modules.length, ['тема', 'темы', 'тем'])} · ${allCards.length} ${plural(allCards.length, ['карточка', 'карточки', 'карточек'])}`, 'muted small')));
     const search = el('input', { type: 'search', value: topicQuery, placeholder: 'Тема, слово или фраза', 'aria-label': 'Найти учебный материал', autocomplete: 'off' });
@@ -140,7 +145,22 @@
     } else {
       queueKey = '';
       const panel = el('section', { class: 'lesson-panel' }, p('ОДНА ГЛАВНАЯ МЫСЛЬ', 'eyebrow'), p(m.idea, 'lesson-idea'), p(m.pattern, 'pattern'));
-      m.examples.forEach((ex, i) => panel.append(el('div', { class: 'example' }, el('span', { class: 'example-num', 'aria-hidden': 'true' }, String(i + 1).padStart(2, '0')), el('div', {}, english(ex.en), p(ex.ru, 'translation'), p(ex.note, 'note')))));
+      const usedAudio = new Set();
+      const normalise = text => text.toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+      m.examples.forEach((ex, i) => {
+        const match = m.cards.find(c => [c.answer, c.example, cardAudioText(c)].some(text => normalise(text) === normalise(ex.en)) && normalise(cardAudioText(c)).includes(normalise(ex.en)));
+        if (match) usedAudio.add(match.audioId);
+        const translation = match && normalise(ex.en) === normalise(match.example) && normalise(cardAudioText(match)) !== normalise(ex.en)
+          ? `${match.translation}\n${ex.ru}` : match && normalise(ex.en) === normalise(match.answer) && cardAudioText(match).includes(match.example) && match.exampleTranslation ? `${ex.ru}\n${match.exampleTranslation}` : ex.ru;
+        panel.append(el('div', { class: 'example' }, el('span', { class: 'example-num', 'aria-hidden': 'true' }, String(i + 1).padStart(2, '0')), el('div', {},
+          match ? spokenText(cardAudioText(match), match.audioId, '', cardDisplayText(match)) : english(ex.en), p(translation, 'translation'), p(ex.note, 'note'))));
+      });
+      const extraTracks = tracksFor(m).filter(t => !usedAudio.has(t.audioId));
+      if (extraTracks.length) {
+        const extra = el('section', { class: 'lesson-audio-extra' }, el('h2', {}, 'Ещё практика с Ryan'));
+        extraTracks.forEach(t => extra.append(listeningCard(t)));
+        panel.append(extra);
+      }
       if (m.usage) panel.append(el('div', { class: 'usage-note' }, el('strong', {}, 'Нюанс. '), m.usage));
       panel.append(el('div', { class: 'actions' }, button('Попробовать вспомнить', () => route(`#topic/${m.id}/recall`), 'primary')));
       const aside = el('aside', { class: 'lesson-aside' }, p('ПЕРЕНОС В СВОЙ КОНТЕКСТ', 'eyebrow'), p(m.transferTitle || 'Попробуйте по-своему', 'aside-title'), p(m.transfer), p('Учебные ситуации и примеры в этом сборнике придуманы специально для практики.'));
@@ -164,8 +184,11 @@
     const meta = el('div', { class: 'recall-meta' }, el('span', {}, c.moduleTitle), el('span', {}, `${cardIndex + 1} / ${queue.length}`));
     const card = el('section', { class: 'recall-card', 'aria-label': 'Карточка для воспроизведения' }, p('КАК СКАЗАТЬ ПО-АНГЛИЙСКИ?', 'eyebrow'), p(c.cue, 'recall-cue'), p(c.context || 'Сформулируйте свою версию. Точное совпадение слов не обязательно.', 'recall-context'));
     const answerId = `answer-${c.id}`;
-    const answer = el('div', { class: 'answer', id: answerId, hidden: true }, english(c.answer, 'answer-en'), p(c.translation, 'translation'),
-      el('div', { class: 'example' }, el('div', {}, p('ПРИМЕР В КОНТЕКСТЕ', 'eyebrow'), english(c.example), c.exampleTranslation ? p(c.exampleTranslation, 'translation') : null, p(c.note, 'note'))), audioButton(c.audioId, c.answer));
+    const answer = el('div', { class: 'answer', id: answerId, hidden: true },
+      spokenText(cardAudioText(c), c.audioId, 'answer-en', cardDisplayText(c)), p(c.translation, 'translation'),
+      c.exampleTranslation && cardAudioText(c).includes(c.example) ? p(c.exampleTranslation, 'translation') : null,
+      !cardAudioText(c).includes(c.example) ? el('div', { class: 'example' }, el('div', {}, p('ЕЩЁ ПРИМЕР', 'eyebrow'), english(c.example), c.exampleTranslation ? p(c.exampleTranslation, 'translation') : null)) : null,
+      p(c.note, 'note'));
     const schedule = el('div', { class: 'schedule-area' }, p('Когда вернуться к этой фразе? Если было трудно, выберите 1 день.'));
     const intervals = el('div', { class: 'schedule-buttons' });
     Core.INTERVALS.forEach(days => intervals.append(button(`Через ${days} ${plural(days, ['день', 'дня', 'дней'])}`, () => {
@@ -185,34 +208,65 @@
     wrap.append(meta, card, el('div', { class: 'card-navigation' }, prev, next));
     return wrap;
   }
+  function spokenText(text, id, cls = '', displayText = text) {
+    return el('div', { class: 'spoken-text', 'data-audio-text': text, 'data-audio-id': id }, english(displayText, cls), audioButton(id, displayText));
+  }
   function audioButton(id, title) {
     const ready = readyAudio.has(id);
-    return button(ready ? '▷ Слушать Ryan' : 'Ryan · запись пока недоступна', () => playAudio(id, title), 'audio-button', { disabled: ready ? undefined : '' });
+    return button([el('span', { class: 'audio-button-icon', 'aria-hidden': 'true' }, '▷'), el('span', { class: 'audio-button-label' }, ready ? 'Слушать' : 'Нет записи')], () => {
+      if (currentAudio?.id === id && !audio.error) {
+        if (audio.paused) {
+          if (audio.ended) audio.currentTime = 0;
+          const token = audioToken;
+          audio.play().catch(error => { if (token === audioToken && error.name !== 'AbortError') audioError(); });
+        }
+        else audio.pause();
+      } else playAudio(id, title);
+    }, 'audio-button', { disabled: ready ? undefined : '', 'data-audio-id': id, 'data-audio-title': title, 'aria-label': `Слушать Ryan: ${title}`, 'aria-pressed': 'false' });
   }
   function listeningCard(track, index) {
     const block = el('article', { class: 'listening-card' });
     if (index !== undefined) block.append(p(`АУДИО ${String(index + 1).padStart(2, '0')} · RYAN`, 'audio-number'));
     else block.append(p('RYAN · BRITISH ENGLISH', 'eyebrow'));
     block.append(el('h2', {}, track.title), p(track.note, 'lede'));
-    const transcript = el('div', { class: 'transcript', id: `transcript-${track.id}`, hidden: true }, english(track.text), p(track.translation, 'translation'));
-    const toggle = button('Открыть текст', () => { transcript.hidden = !transcript.hidden; toggle.setAttribute('aria-expanded', String(!transcript.hidden)); toggle.textContent = transcript.hidden ? 'Открыть текст' : 'Скрыть текст'; }, 'quiet', { 'aria-controls': transcript.id, 'aria-expanded': 'false' });
-    block.append(el('div', { class: 'actions' }, audioButton(track.audioId, track.title), toggle), transcript);
+    block.append(el('div', { class: 'transcript' }, spokenText(track.text, track.audioId, '', track.displayText || track.text), p(track.translation, 'translation')));
     return block;
   }
-  function renderListening() {
+  function renderTraining() {
     queueKey = '';
-    main.append(p('СЛУШАТЬ И ПОДХВАТЫВАТЬ ФРАЗЫ', 'eyebrow'), el('h1', {}, 'Английский на слух'), p('Сначала уловите смысл. Затем откройте текст и повторите полезную фразу за Ryan. Скорость можно изменить во время воспроизведения.', 'lede'), p('Синтетический голос · британский английский. Все ситуации и примеры придуманы для практики.', 'note'));
-    const filter = el('select', { 'aria-label': 'Тема аудио', onchange: event => { listeningModule = event.target.value; listeningPage = 0; stopAudio(); render(); } });
+    main.append(p('УСЛЫШАТЬ → ВОССТАНОВИТЬ → ПОВТОРИТЬ', 'eyebrow'), el('h1', {}, 'Тренировка на слух'), p('Послушайте Ryan и попробуйте повторить фразу. Затем откройте текст и сравните со своей версией. Темп меняется в плеере.', 'lede'));
+    const filter = el('select', { 'aria-label': 'Тема тренировки', onchange: event => { listeningModule = event.target.value; listeningPage = 0; stopAudio(); render(); } });
     for (const [value, label] of [['all', 'Все темы'], ...modules.map(m => [m.id, m.title])]) filter.append(el('option', { value, selected: value === listeningModule ? '' : undefined }, label));
     main.append(el('label', { class: 'select-field listening-filter' }, 'Тема', filter));
     const tracks = allTracks.filter(t => listeningModule === 'all' || t.moduleId === listeningModule);
-    const pageSize = 12, pages = Math.max(1, Math.ceil(tracks.length / pageSize));
-    listeningPage = Math.min(listeningPage, pages - 1);
-    const list = el('div', { class: 'audio-list' });
-    tracks.slice(listeningPage * pageSize, (listeningPage + 1) * pageSize).forEach((t, i) => list.append(listeningCard(t, listeningPage * pageSize + i)));
-    main.append(p(`${tracks.length} ${plural(tracks.length, ['запись', 'записи', 'записей'])} · страница ${listeningPage + 1} из ${pages}`, 'muted small'), list);
-    if (pages > 1) main.append(el('div', { class: 'card-navigation' }, button('← Предыдущие записи', () => { listeningPage--; stopAudio(); render(true); }, '', { disabled: listeningPage === 0 ? '' : undefined }), button('Следующие записи →', () => { listeningPage++; stopAudio(); render(true); }, '', { disabled: listeningPage === pages - 1 ? '' : undefined })));
-    if (tracks.some(t => !readyAudio.has(t.audioId))) main.prepend(p('Некоторые записи Ryan пока недоступны. Их тексты можно открыть ниже.', 'notice'));
+    listeningPage = Math.min(listeningPage, tracks.length - 1);
+    const track = tracks[listeningPage];
+    const chooser = el('select', { 'aria-label': 'Задание тренировки', onchange: event => { listeningPage = Number(event.target.value); stopAudio(); render(); } });
+    tracks.forEach((t, i) => chooser.append(el('option', { value: i, selected: i === listeningPage ? '' : undefined }, `${i + 1}. ${t.title}`)));
+    const wrap = el('div', { class: 'recall-wrap' }, el('label', { class: 'select-field' }, 'Задание', chooser));
+    const card = el('section', { class: 'training-card listening-card' }, p(`${listeningPage + 1} / ${tracks.length} · ${track.moduleTitle}`, 'audio-number'),
+      el('h2', {}, 'Послушайте и повторите'), audioButton(track.audioId, `Задание ${listeningPage + 1}`));
+    const transcript = el('div', { id: `training-${track.id}`, class: 'transcript', hidden: true }, spokenText(track.text, track.audioId, '', track.displayText || track.text), p(track.translation, 'translation'), p(track.note, 'note'));
+    const toggle = button('Показать текст', () => { transcript.hidden = !transcript.hidden; toggle.setAttribute('aria-expanded', String(!transcript.hidden)); toggle.textContent = transcript.hidden ? 'Показать текст' : 'Скрыть текст'; }, 'primary', { 'aria-controls': transcript.id, 'aria-expanded': 'false' });
+    if (track.cardId) {
+      const scheduled = progress.reviews[track.cardId];
+      const status = p(scheduled ? `Следующий возврат — ${dateLabel(scheduled.due)}` : 'Выберите дату, если хотите вернуться к этой фразе. Она появится в разделе «Повтор».', 'note');
+      const choices = el('div', { class: 'schedule-buttons' });
+      Core.INTERVALS.forEach(days => choices.append(button(`Через ${days} ${plural(days, ['день', 'дня', 'дней'])}`, () => {
+        progress = Core.schedule(progress, track.cardId, days);
+        if (persist()) {
+          status.textContent = `Следующий возврат — ${dateLabel(progress.reviews[track.cardId].due)}`; notice(status.textContent);
+          choices.querySelectorAll('button').forEach(b => { b.disabled = true; });
+          const due = allCards.filter(c => Core.status(progress.reviews[c.id]) === 'due').length;
+          const badge = document.getElementById('due-badge'); badge.textContent = due; badge.hidden = !due;
+        }
+      })));
+      transcript.append(el('div', { class: 'schedule-area' }, status, choices));
+    } else transcript.append(p('Это связный текст. Повторите его своими словами; даты повторения отдельных фраз можно выбрать в карточках темы.', 'note'));
+    card.append(el('div', { class: 'actions' }, toggle), transcript);
+    const move = offset => { listeningPage += offset; stopAudio(); render(true); window.scrollTo(0, 0); };
+    wrap.append(card, el('div', { class: 'card-navigation' }, button('← Предыдущая', () => move(-1), '', { disabled: listeningPage === 0 ? '' : undefined }), button('Следующая →', () => move(1), '', { disabled: listeningPage === tracks.length - 1 ? '' : undefined })));
+    main.append(wrap);
   }
   function renderProgress() {
     queueKey = '';
@@ -252,6 +306,7 @@
   function stopAudio() {
     audioToken += 1; audio.pause(); audio.removeAttribute('src'); audio.load(); currentAudio = null;
     document.getElementById('audio-player').hidden = true; document.body.classList.remove('has-audio');
+    updateInlineAudioState();
   }
   async function playAudio(id, title) {
     if (!/^[a-z0-9-]+$/.test(id) || !readyAudio.has(id)) return;
@@ -268,6 +323,16 @@
     const target = document.getElementById('audio-toggle');
     target.textContent = audio.paused ? (audio.ended ? 'Сначала' : 'Продолжить') : 'Пауза';
     target.setAttribute('aria-label', audio.paused ? 'Воспроизвести аудио' : 'Пауза');
+    updateInlineAudioState();
+  }
+  function updateInlineAudioState() {
+    document.querySelectorAll('button[data-audio-id]').forEach(b => {
+      const playing = currentAudio?.id === b.dataset.audioId && !audio.paused;
+      b.querySelector('.audio-button-icon').textContent = playing ? 'Ⅱ' : '▷';
+      b.querySelector('.audio-button-label').textContent = playing ? 'Пауза' : 'Слушать';
+      b.setAttribute('aria-pressed', String(playing));
+      b.setAttribute('aria-label', `${playing ? 'Пауза' : 'Слушать Ryan'}: ${b.dataset.audioTitle}`);
+    });
   }
   function audioError() {
     if (!currentAudio) return;

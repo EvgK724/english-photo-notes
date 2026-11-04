@@ -1,9 +1,9 @@
-/* Generated from the exact public app files. Rebuild after every update. */
+/* Generated from the exact app files. Rebuild after every update. */
 self.PHOTO_PWA_ASSETS = {
-  "version": "ddb7082679bd5dc4dda2",
+  "version": "1cca94051791d24aed14",
   "files": [
     "README.md",
-    "app.js?v=c37f4029c9",
+    "app.js?v=282d6e20a0",
     "audio-manifest.json",
     "audio-ready.js?v=972f3e7f64",
     "audio/album-experiences-01.mp3",
@@ -374,7 +374,7 @@ self.PHOTO_PWA_ASSETS = {
     "manifest.webmanifest",
     "pwa.css",
     "pwa.js",
-    "styles.css?v=12b9b2d023",
+    "styles.css?v=fe946ab654",
     "ui-layout.js?v=094d0e4381"
   ]
 };

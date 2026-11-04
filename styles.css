@@ -64,3 +64,22 @@ h1, h2, h3, p { overflow-wrap: anywhere; }
   .nav-dock { padding-left: max(6px, env(safe-area-inset-left, 0px)); padding-right: max(6px, env(safe-area-inset-right, 0px)); }
   .main-nav { gap: 2px; padding: 4px; }
 }
+
+/* Place every recorded passage beside its own accessible play/pause button. */
+.spoken-text { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 10px; align-items: start; }
+.spoken-text > .english { min-width: 0; }
+.spoken-text > .audio-button { margin: 0; padding: 8px; min-width: 48px; min-height: 48px; }
+.spoken-text > .audio-button .audio-button-label { display: none; }
+.audio-button-icon { font-size: 24px; line-height: 1; }
+.audio-button[aria-pressed="true"] { border-color: var(--key); background: #3b2b20; }
+.translation { white-space: pre-line; }
+.lesson-audio-extra { margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--line); }
+.lesson-audio-extra .listening-card { margin-top: 16px; padding: 16px; }
+.lesson-audio-extra .listening-card .eyebrow { display: none; }
+.recall-wrap > .select-field { margin-bottom: 20px; }
+.training-card { margin-top: 18px; }
+.training-card > .audio-button { margin-top: 20px; }
+.training-card > .actions { margin-top: 14px; }
+.listening-card .transcript { margin-top: 16px; }
+
+.spoken-text > .english { white-space: pre-line; }
